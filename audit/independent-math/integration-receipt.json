@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "method": "Exact byte copies followed by execution of the copied standalone verifier; no producer import and no source PDF or solver-code copy.",
+  "artifacts": [
+    {
+      "path": "REPORT.md",
+      "sha256": "22bb402005615949ddb35b77d9a8efd32e7e9ea7425b6d00d6aae3dcacd28ef6",
+      "bytes": 17798,
+      "copy_byte_identical": true
+    },
+    {
+      "path": "verify_iat_math.py",
+      "sha256": "858018139998885fad683261a4e8c12fb3a4e004b165b97451865c21dafdc620",
+      "bytes": 16072,
+      "copy_byte_identical": true
+    },
+    {
+      "path": "independent-math-checks.json",
+      "sha256": "91562045d39acc39d88ab2b55cc38ebb7bf4636d3a42d769ed7151fecdc6e457",
+      "bytes": 31900,
+      "copy_byte_identical": true
+    },
+    {
+      "path": "review-receipt.json",
+      "sha256": "a2599654bb78b34a957809c44112f2034b98d51d4fbe5d6ba6a9b606baf200c5",
+      "bytes": 2150,
+      "copy_byte_identical": true
+    }
+  ],
+  "all_copies_unchanged_after_run": true,
+  "actual_portability_run": {
+    "command": "python audit/independent-math/verify_iat_math.py",
+    "python": "3.13.7",
+    "mpmath": "1.3.0",
+    "exit_code": 0,
+    "result_sha256": "91562045d39acc39d88ab2b55cc38ebb7bf4636d3a42d769ed7151fecdc6e457",
+    "runtime_notes": "The recorded source hashes are provenance; the program does not require or rehash absent source PDFs. Output is relative to the verifier directory. No local drive path is required."
+  },
+  "source_bindings": {
+    "journal": {
+      "url": "https://doi.org/10.1017/S0022377824000060",
+      "recorded_sha256": "ece6a9ed59a5646d817db11c5468398a281b3704f223e59819f37faf75e29034",
+      "pages": 39
+    },
+    "erratum": {
+      "url": "https://doi.org/10.1017/S0022377824000291",
+      "recorded_sha256": "2aa9f637c6a841943bfdc41ea7ca25a10b709fb3c6679c84707eab07ddc2c830",
+      "pages": 1
+    },
+    "preprint": {
+      "url": "https://arxiv.org/abs/2309.05563v2",
+      "tex_recorded_sha256": "a7a5f1ead913eaebd8bc2c793693bd8b5083d9c2459a4061fd3b90e96da710a2"
+    },
+    "input_deposit": {
+      "url": "https://github.com/gkeyllorg/gkyl-paper-inp/tree/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat",
+      "commit": "7209ddbfe432b1826df3aa1f7f9fa7f32053a3af",
+      "Main_lua_recorded_sha256": "940969dfec824be5ec9244d50cb2e9d7f25642eedda3fe033d3e69c4831b84e6"
+    },
+    "declared_solver": {
+      "url": "https://github.com/liangwang0734/gkyl/commit/69f26286dcc7640024804ba6b1c5ea16d409f759",
+      "commit": "69f26286dcc7640024804ba6b1c5ea16d409f759",
+      "executed_binary_identity_verified": false
+    }
+  },
+  "preservation_note": "The original report is preserved verbatim as a historical independent reading. Its source-field-interface caveat is more conservative than the subsequently inspected declared Vlasov-Poisson branch. This does not change the original scalar checks or transfer them into an actual discrete run budget.",
+  "scope": "Printed formulas and conditional continuum controls only; no simulation, source diagnostic, target PDF or historical solver code is bundled here."
+}

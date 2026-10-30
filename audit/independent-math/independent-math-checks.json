@@ -1,0 +1,1072 @@
+{
+  "status": "all controls passed",
+  "runtime": {
+    "python": "3.13.7",
+    "mpmath": "1.3.0",
+    "mpmath_decimal_digits": 80
+  },
+  "program_sha256": "858018139998885fad683261a4e8c12fb3a4e004b165b97451865c21dafdc620",
+  "source_provenance": {
+    "publisher_VOR_SHA256": "ece6a9ed59a5646d817db11c5468398a281b3704f223e59819f37faf75e29034",
+    "erratum_SHA256": "2aa9f637c6a841943bfdc41ea7ca25a10b709fb3c6679c84707eab07ddc2c830",
+    "v2_TeX_SHA256": "a7a5f1ead913eaebd8bc2c793693bd8b5083d9c2459a4061fd3b90e96da710a2",
+    "public_Main_Lua_SHA256": "940969dfec824be5ec9244d50cb2e9d7f25642eedda3fe033d3e69c4831b84e6",
+    "semantics": "Recorded hashes independently checked during source reading, not rehashed by this standalone scalar program."
+  },
+  "dielectric_reduction": {
+    "exact_integrand_cases": [
+      {
+        "p": [
+          "1/2",
+          "1/3"
+        ],
+        "k": "1/2",
+        "v": "-2",
+        "A1_integrand_factor": [
+          "-12/25",
+          "9/25"
+        ],
+        "correct_reduced_factor": [
+          "-12/25",
+          "9/25"
+        ]
+      },
+      {
+        "p": [
+          "1/2",
+          "1/3"
+        ],
+        "k": "1/2",
+        "v": "1/3",
+        "A1_integrand_factor": [
+          "1/2",
+          "1/2"
+        ],
+        "correct_reduced_factor": [
+          "1/2",
+          "1/2"
+        ]
+      },
+      {
+        "p": [
+          "1/2",
+          "1/3"
+        ],
+        "k": "1/2",
+        "v": "2",
+        "A1_integrand_factor": [
+          "24/73",
+          "9/73"
+        ],
+        "correct_reduced_factor": [
+          "24/73",
+          "9/73"
+        ]
+      },
+      {
+        "p": [
+          "1/2",
+          "1/3"
+        ],
+        "k": "2",
+        "v": "-2",
+        "A1_integrand_factor": [
+          "-264/493",
+          "36/493"
+        ],
+        "correct_reduced_factor": [
+          "-264/493",
+          "36/493"
+        ]
+      },
+      {
+        "p": [
+          "1/2",
+          "1/3"
+        ],
+        "k": "2",
+        "v": "1/3",
+        "A1_integrand_factor": [
+          "8/5",
+          "4/5"
+        ],
+        "correct_reduced_factor": [
+          "8/5",
+          "4/5"
+        ]
+      },
+      {
+        "p": [
+          "1/2",
+          "1/3"
+        ],
+        "k": "2",
+        "v": "2",
+        "A1_integrand_factor": [
+          "312/685",
+          "36/685"
+        ],
+        "correct_reduced_factor": [
+          "312/685",
+          "36/685"
+        ]
+      },
+      {
+        "p": [
+          "2",
+          "-1"
+        ],
+        "k": "1/2",
+        "v": "-2",
+        "A1_integrand_factor": [
+          "-1/8",
+          "1/8"
+        ],
+        "correct_reduced_factor": [
+          "-1/8",
+          "1/8"
+        ]
+      },
+      {
+        "p": [
+          "2",
+          "-1"
+        ],
+        "k": "1/2",
+        "v": "1/3",
+        "A1_integrand_factor": [
+          "-15/169",
+          "36/169"
+        ],
+        "correct_reduced_factor": [
+          "-15/169",
+          "36/169"
+        ]
+      },
+      {
+        "p": [
+          "2",
+          "-1"
+        ],
+        "k": "1/2",
+        "v": "2",
+        "A1_integrand_factor": [
+          "0",
+          "1/4"
+        ],
+        "correct_reduced_factor": [
+          "0",
+          "1/4"
+        ]
+      },
+      {
+        "p": [
+          "2",
+          "-1"
+        ],
+        "k": "2",
+        "v": "-2",
+        "A1_integrand_factor": [
+          "-10/29",
+          "4/29"
+        ],
+        "correct_reduced_factor": [
+          "-10/29",
+          "4/29"
+        ]
+      },
+      {
+        "p": [
+          "2",
+          "-1"
+        ],
+        "k": "2",
+        "v": "1/3",
+        "A1_integrand_factor": [
+          "-6/37",
+          "36/37"
+        ],
+        "correct_reduced_factor": [
+          "-6/37",
+          "36/37"
+        ]
+      },
+      {
+        "p": [
+          "2",
+          "-1"
+        ],
+        "k": "2",
+        "v": "2",
+        "A1_integrand_factor": [
+          "6/13",
+          "4/13"
+        ],
+        "correct_reduced_factor": [
+          "6/13",
+          "4/13"
+        ]
+      },
+      {
+        "p": [
+          "3/5",
+          "0"
+        ],
+        "k": "1/2",
+        "v": "-2",
+        "A1_integrand_factor": [
+          "-25/68",
+          "15/68"
+        ],
+        "correct_reduced_factor": [
+          "-25/68",
+          "15/68"
+        ]
+      },
+      {
+        "p": [
+          "3/5",
+          "0"
+        ],
+        "k": "1/2",
+        "v": "1/3",
+        "A1_integrand_factor": [
+          "75/349",
+          "270/349"
+        ],
+        "correct_reduced_factor": [
+          "75/349",
+          "270/349"
+        ]
+      },
+      {
+        "p": [
+          "3/5",
+          "0"
+        ],
+        "k": "1/2",
+        "v": "2",
+        "A1_integrand_factor": [
+          "25/68",
+          "15/68"
+        ],
+        "correct_reduced_factor": [
+          "25/68",
+          "15/68"
+        ]
+      },
+      {
+        "p": [
+          "3/5",
+          "0"
+        ],
+        "k": "2",
+        "v": "-2",
+        "A1_integrand_factor": [
+          "-200/409",
+          "30/409"
+        ],
+        "correct_reduced_factor": [
+          "-200/409",
+          "30/409"
+        ]
+      },
+      {
+        "p": [
+          "3/5",
+          "0"
+        ],
+        "k": "2",
+        "v": "1/3",
+        "A1_integrand_factor": [
+          "300/181",
+          "270/181"
+        ],
+        "correct_reduced_factor": [
+          "300/181",
+          "270/181"
+        ]
+      },
+      {
+        "p": [
+          "3/5",
+          "0"
+        ],
+        "k": "2",
+        "v": "2",
+        "A1_integrand_factor": [
+          "200/409",
+          "30/409"
+        ],
+        "correct_reduced_factor": [
+          "200/409",
+          "30/409"
+        ]
+      }
+    ],
+    "cold_limit_controls": [
+      {
+        "omega_p": "1/2",
+        "p": [
+          "0",
+          "-1/2"
+        ],
+        "correct_epsilon": [
+          "0",
+          "0"
+        ],
+        "printed_A2_epsilon": [
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "omega_p": "1/2",
+        "p": [
+          "0",
+          "1/2"
+        ],
+        "correct_epsilon": [
+          "0",
+          "0"
+        ],
+        "printed_A2_epsilon": [
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "omega_p": "1",
+        "p": [
+          "0",
+          "-1"
+        ],
+        "correct_epsilon": [
+          "0",
+          "0"
+        ],
+        "printed_A2_epsilon": [
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "omega_p": "1",
+        "p": [
+          "0",
+          "1"
+        ],
+        "correct_epsilon": [
+          "0",
+          "0"
+        ],
+        "printed_A2_epsilon": [
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "omega_p": "2",
+        "p": [
+          "0",
+          "-2"
+        ],
+        "correct_epsilon": [
+          "0",
+          "0"
+        ],
+        "printed_A2_epsilon": [
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "omega_p": "2",
+        "p": [
+          "0",
+          "2"
+        ],
+        "correct_epsilon": [
+          "0",
+          "0"
+        ],
+        "printed_A2_epsilon": [
+          "1",
+          "-1"
+        ]
+      }
+    ],
+    "identity": "i*k/(p+i*k*v)=1/(v-i*p/k); the prefactor i cancels.",
+    "cold_limit": "Correct epsilon=1+omega_p^2/p^2; literal A2=1+i*omega_p^2/p^2.",
+    "scope": "Displayed reduction only; no claim about the root routine used for Figures12/15/18."
+  },
+  "growth": {
+    "time_dependent_cases": [
+      {
+        "a": "1/100",
+        "t0": "0",
+        "t": "1/2",
+        "correct_log_energy_ratio": "1/400",
+        "literal_printed_log_factor": "1/200",
+        "printed_ODE_log_residual": "1/100"
+      },
+      {
+        "a": "1/100",
+        "t0": "0",
+        "t": "2",
+        "correct_log_energy_ratio": "1/25",
+        "literal_printed_log_factor": "2/25",
+        "printed_ODE_log_residual": "1/25"
+      },
+      {
+        "a": "1/100",
+        "t0": "1",
+        "t": "3/2",
+        "correct_log_energy_ratio": "1/80",
+        "literal_printed_log_factor": "9/200",
+        "printed_ODE_log_residual": "3/100"
+      },
+      {
+        "a": "1/100",
+        "t0": "1",
+        "t": "3",
+        "correct_log_energy_ratio": "2/25",
+        "literal_printed_log_factor": "9/50",
+        "printed_ODE_log_residual": "3/50"
+      },
+      {
+        "a": "1/100",
+        "t0": "3/2",
+        "t": "2",
+        "correct_log_energy_ratio": "7/400",
+        "literal_printed_log_factor": "2/25",
+        "printed_ODE_log_residual": "1/25"
+      },
+      {
+        "a": "1/100",
+        "t0": "3/2",
+        "t": "7/2",
+        "correct_log_energy_ratio": "1/10",
+        "literal_printed_log_factor": "49/200",
+        "printed_ODE_log_residual": "7/100"
+      },
+      {
+        "a": "1/7",
+        "t0": "0",
+        "t": "1/2",
+        "correct_log_energy_ratio": "1/28",
+        "literal_printed_log_factor": "1/14",
+        "printed_ODE_log_residual": "1/7"
+      },
+      {
+        "a": "1/7",
+        "t0": "0",
+        "t": "2",
+        "correct_log_energy_ratio": "4/7",
+        "literal_printed_log_factor": "8/7",
+        "printed_ODE_log_residual": "4/7"
+      },
+      {
+        "a": "1/7",
+        "t0": "1",
+        "t": "3/2",
+        "correct_log_energy_ratio": "5/28",
+        "literal_printed_log_factor": "9/14",
+        "printed_ODE_log_residual": "3/7"
+      },
+      {
+        "a": "1/7",
+        "t0": "1",
+        "t": "3",
+        "correct_log_energy_ratio": "8/7",
+        "literal_printed_log_factor": "18/7",
+        "printed_ODE_log_residual": "6/7"
+      },
+      {
+        "a": "1/7",
+        "t0": "3/2",
+        "t": "2",
+        "correct_log_energy_ratio": "1/4",
+        "literal_printed_log_factor": "8/7",
+        "printed_ODE_log_residual": "4/7"
+      },
+      {
+        "a": "1/7",
+        "t0": "3/2",
+        "t": "7/2",
+        "correct_log_energy_ratio": "10/7",
+        "literal_printed_log_factor": "7/2",
+        "printed_ODE_log_residual": "1"
+      },
+      {
+        "a": "2/3",
+        "t0": "0",
+        "t": "1/2",
+        "correct_log_energy_ratio": "1/6",
+        "literal_printed_log_factor": "1/3",
+        "printed_ODE_log_residual": "2/3"
+      },
+      {
+        "a": "2/3",
+        "t0": "0",
+        "t": "2",
+        "correct_log_energy_ratio": "8/3",
+        "literal_printed_log_factor": "16/3",
+        "printed_ODE_log_residual": "8/3"
+      },
+      {
+        "a": "2/3",
+        "t0": "1",
+        "t": "3/2",
+        "correct_log_energy_ratio": "5/6",
+        "literal_printed_log_factor": "3",
+        "printed_ODE_log_residual": "2"
+      },
+      {
+        "a": "2/3",
+        "t0": "1",
+        "t": "3",
+        "correct_log_energy_ratio": "16/3",
+        "literal_printed_log_factor": "12",
+        "printed_ODE_log_residual": "4"
+      },
+      {
+        "a": "2/3",
+        "t0": "3/2",
+        "t": "2",
+        "correct_log_energy_ratio": "7/6",
+        "literal_printed_log_factor": "16/3",
+        "printed_ODE_log_residual": "8/3"
+      },
+      {
+        "a": "2/3",
+        "t0": "3/2",
+        "t": "7/2",
+        "correct_log_energy_ratio": "20/3",
+        "literal_printed_log_factor": "49/3",
+        "printed_ODE_log_residual": "14/3"
+      }
+    ],
+    "constant_growth_positive_controls": [
+      {
+        "constant_gamma": "1/5",
+        "elapsed_time": "1",
+        "log_energy_ratio": "2/5"
+      },
+      {
+        "constant_gamma": "1/5",
+        "elapsed_time": "3",
+        "log_energy_ratio": "6/5"
+      },
+      {
+        "constant_gamma": "3/4",
+        "elapsed_time": "1",
+        "log_energy_ratio": "3/2"
+      },
+      {
+        "constant_gamma": "3/4",
+        "elapsed_time": "3",
+        "log_energy_ratio": "9/2"
+      }
+    ],
+    "correct_law": "W(t)/W(t0)=exp[a*(t^2-t0^2)] for gamma(t)=a*t and Wdot=2*gamma*W.",
+    "E11_bridge": {
+      "correct_energy_growth_multiplier": "1",
+      "literal_E2_multiplier": "2",
+      "E6_fraction": "1/2",
+      "correct_RHS_prefactor_excluding_sqrt_pi_over8": "1/4",
+      "RHS_from_literal_E2": "1/2"
+    },
+    "important_positive": "The printed E11 1/4 coefficient follows from repaired integrated growth plus the displayed E6/E10 conventions."
+  },
+  "threshold": {
+    "normalization": "Eunit^2=4*pi*n0*Te0; S=(r/2)*Etilde^2.",
+    "root_method": "Independent monotone260-step bisection and LambertW closed form agree to relative1e-68.",
+    "literal_roots": [
+      {
+        "mass_ratio": 25,
+        "W0_over_nTe": "0.0001",
+        "E11_literal_critical_Etilde": "0.0006840310746652680370409307916025912540736569973399567491345992142437894"
+      },
+      {
+        "mass_ratio": 25,
+        "W0_over_nTe": "0.000001",
+        "E11_literal_critical_Etilde": "0.0001696596417924333688970192383320070217197585991505636351645288433176583"
+      },
+      {
+        "mass_ratio": 25,
+        "W0_over_nTe": "0.00000001",
+        "E11_literal_critical_Etilde": "0.00006818387504697814691943893549816752759242394246789816031823727013749598"
+      },
+      {
+        "mass_ratio": 25,
+        "W0_over_nTe": "0.0000000001",
+        "E11_literal_critical_Etilde": "0.00003524001733142479664316017350928367684839383442397427281348486801515885"
+      },
+      {
+        "mass_ratio": 100,
+        "W0_over_nTe": "0.0001",
+        "E11_literal_critical_Etilde": "0.0003420155373326340185204653958012956270368284986699783745672996071218947"
+      },
+      {
+        "mass_ratio": 100,
+        "W0_over_nTe": "0.000001",
+        "E11_literal_critical_Etilde": "0.00008482982089621668444850961916600351085987929957528181758226442165882915"
+      },
+      {
+        "mass_ratio": 100,
+        "W0_over_nTe": "0.00000001",
+        "E11_literal_critical_Etilde": "0.00003409193752348907345971946774908376379621197123394908015911863506874799"
+      },
+      {
+        "mass_ratio": 100,
+        "W0_over_nTe": "0.0000000001",
+        "E11_literal_critical_Etilde": "0.00001762000866571239832158008675464183842419691721198713640674243400757943"
+      },
+      {
+        "mass_ratio": 1836,
+        "W0_over_nTe": "0.0001",
+        "E11_literal_critical_Etilde": "0.00007981959089250428123329131064759755975831976652020689904223908439094841"
+      },
+      {
+        "mass_ratio": 1836,
+        "W0_over_nTe": "0.000001",
+        "E11_literal_critical_Etilde": "0.00001979758478877255346641479634018863953899691005446805218832521765958797"
+      },
+      {
+        "mass_ratio": 1836,
+        "W0_over_nTe": "0.00000001",
+        "E11_literal_critical_Etilde": "0.000007956376856678156704870674077633889785306828287740814921994350769980424"
+      },
+      {
+        "mass_ratio": 1836,
+        "W0_over_nTe": "0.0000000001",
+        "E11_literal_critical_Etilde": "0.000004112157869166336337082447718850999721182311137607085292257589433952282"
+      }
+    ],
+    "claimed_E12": "0.00056",
+    "claimed_noise": "0.00000001",
+    "at_claimed_E12": {
+      "S": "0.00000392",
+      "E11_lhs": "12.19597129187141400530316674436790141215474088563733597377372176804796",
+      "E11_rhs": "3.520857391235135555014626843335328528081155529519094541540142506843668",
+      "lhs_minus_rhs": "8.675113900636278450288539901032572884073585356118241432233579261204292"
+    },
+    "root_of_printed_E11_for_claimed_parameters": "0.00006818387504697814691943893549816752759242394246789816031823727013749598",
+    "root_if_literal_printed_E2_propagated": "0.0002191058934845573800266347914801860873416271398121289161042219960308007",
+    "noise_required_for_claimed_E12_with_literal_E11": "0.00005855366678540547041803468924927363602254627111533641865911205345949248",
+    "RHS_coefficient_multiplier_required": "3.46392083991592803938215588580091014586067298193122744941973579690484",
+    "trapping_width_multiplier_that_reconciles_claim": "1.861161153666153660563319093281923984491222193711356887920998104380154",
+    "physical_limit": "All trapping/saturation estimates use order-one conventions; these roots test the displayed numerical calculation, not a universal nonlinear threshold or refutation of observed runs."
+  },
+  "Maxwellian_convention": {
+    "cases": [
+      {
+        "sigma": "0.7",
+        "drift": "-0.2",
+        "phase_velocity": {
+          "real": "0.4",
+          "imag": "0.8"
+        },
+        "direct_Gaussian_derivative_integral": {
+          "real": "-0.419774636722107742740486575812886417464053937272940149631632814458141",
+          "imag": "-0.3756724071604121418875740470759106918333724199417005129360542402304621"
+        },
+        "variance_one_Z_form": {
+          "real": "-0.419774636722107742740486575812886417464053937272940149631632814458141",
+          "imag": "-0.3756724071604121418875740470759106918333724199417005129360542402304621"
+        },
+        "rescue_absolute_error": "7.454459654269176946168188297797685731634156859230919646792316289247464e-82",
+        "error_if_unrescaled_Fried_Conte_Z_used": "0.2125620342085611937043010996053210610247279381176421927082977732598435"
+      },
+      {
+        "sigma": "0.7",
+        "drift": "0.3",
+        "phase_velocity": {
+          "real": "0.4",
+          "imag": "0.8"
+        },
+        "direct_Gaussian_derivative_integral": {
+          "real": "-0.6128963307371451692132280419393004733187091296126368666657968525421115",
+          "imag": "-0.07615930670082398300388148672530197988277349748709451303291428258382114"
+        },
+        "variance_one_Z_form": {
+          "real": "-0.6128963307371451692132280419393004733187091296126368666657968525421115",
+          "imag": "-0.07615930670082398300388148672530197988277349748709451303291428258382114"
+        },
+        "rescue_absolute_error": "1.054219794323052322434857405127001900770996138236850755007776302510814e-81",
+        "error_if_unrescaled_Fried_Conte_Z_used": "0.1975649453340753339249649386115947032485682587879762596416066044958292"
+      },
+      {
+        "sigma": "1.2",
+        "drift": "-0.2",
+        "phase_velocity": {
+          "real": "0.4",
+          "imag": "0.8"
+        },
+        "direct_Gaussian_derivative_integral": {
+          "real": "-0.2770936621098382866984474955496609787589146098346609537995756581279064",
+          "imag": "-0.151057682066398414564161854046772758786772016901836129728928245890247"
+        },
+        "variance_one_Z_form": {
+          "real": "-0.2770936621098382866984474955496609787589146098346609537995756581279064",
+          "imag": "-0.151057682066398414564161854046772758786772016901836129728928245890247"
+        },
+        "rescue_absolute_error": "0.0",
+        "error_if_unrescaled_Fried_Conte_Z_used": "0.08988440094122875530538999460764404800460689802248268440384354093947371"
+      },
+      {
+        "sigma": "1.2",
+        "drift": "0.3",
+        "phase_velocity": {
+          "real": "0.4",
+          "imag": "0.8"
+        },
+        "direct_Gaussian_derivative_integral": {
+          "real": "-0.3270021240611619190564002518354992615102187958865570922746564172194841",
+          "imag": "-0.02742267389608065475393229127671465830038789960902289820597887884083617"
+        },
+        "variance_one_Z_form": {
+          "real": "-0.3270021240611619190564002518354992615102187958865570922746564172194841",
+          "imag": "-0.02742267389608065475393229127671465830038789960902289820597887884083617"
+        },
+        "rescue_absolute_error": "1.054219794323052322434857405127001900770996138236850755007776302510814e-81",
+        "error_if_unrescaled_Fried_Conte_Z_used": "0.07705912762253150115578637762636495643561486598334711115785092625580358"
+      }
+    ],
+    "classification": "Normalization ambiguity, not an unconditional error.",
+    "benign_rescue": "Zsigma(z)=ZFC(z/sqrt(2))/sqrt(2) makes3.4/3.5 exactly consistent.",
+    "Debye_qualification": "Common total-electron plasma frequency with explicit bulk/tail weights is consistent; component-density double counting is not established."
+  },
+  "forcing_beta_thermal": {
+    "forcing": [
+      {
+        "mass_ratio": 25,
+        "physical_Jdot": "13/5000",
+        "literal_common_acceleration_Jdot": "0",
+        "ion_correction_relative_to_electron_only": "1/25"
+      },
+      {
+        "mass_ratio": 50,
+        "physical_Jdot": "51/20000",
+        "literal_common_acceleration_Jdot": "0",
+        "ion_correction_relative_to_electron_only": "1/50"
+      },
+      {
+        "mass_ratio": 100,
+        "physical_Jdot": "101/40000",
+        "literal_common_acceleration_Jdot": "0",
+        "ion_correction_relative_to_electron_only": "1/100"
+      },
+      {
+        "mass_ratio": 200,
+        "physical_Jdot": "201/80000",
+        "literal_common_acceleration_Jdot": "0",
+        "ion_correction_relative_to_electron_only": "1/200"
+      },
+      {
+        "mass_ratio": 1836,
+        "physical_Jdot": "1837/734400",
+        "literal_common_acceleration_Jdot": "0",
+        "ion_correction_relative_to_electron_only": "1/1836"
+      }
+    ],
+    "forcing_scope": "Printed2.2 lacks species q/m on physical Eext; public Main.lua supplies physical ExternalField and opposite species charges, so no implemented forcing error is inferred.",
+    "beta": [
+      {
+        "beta_e": "1/4",
+        "correct_normalized_beta_factor": "4",
+        "printed_conclusion_beta_factor": "1/4",
+        "printed_over_correct": "1/16"
+      },
+      {
+        "beta_e": "1",
+        "correct_normalized_beta_factor": "1",
+        "printed_conclusion_beta_factor": "1",
+        "printed_over_correct": "1"
+      },
+      {
+        "beta_e": "4",
+        "correct_normalized_beta_factor": "1/4",
+        "printed_conclusion_beta_factor": "4",
+        "printed_over_correct": "16"
+      }
+    ],
+    "correct_Gaussian_relation": "Erec/Eunit=(2*gamma/beta_e)*sqrt(me/mi)*(vTe/c); Erec physical Gaussian units=gamma*VA*B0/c.",
+    "internal_positive": "Dividing corrected Erec/Eunit by ENL/Eunit gives12*pi*gamma/beta_e*(vTe/c)*sqrt(mi/me)*(Ti/Te), agreeing with the preceding conclusion ratio atgamma=.1.",
+    "mixture_variance": [
+      {
+        "alpha": "1/4",
+        "relative_drift": "0",
+        "central_variance": "5/4",
+        "component_drift_variance": "0",
+        "uniform_boost_invariant": true
+      },
+      {
+        "alpha": "1/4",
+        "relative_drift": "1",
+        "central_variance": "23/16",
+        "component_drift_variance": "3/16",
+        "uniform_boost_invariant": true
+      },
+      {
+        "alpha": "1/4",
+        "relative_drift": "3",
+        "central_variance": "47/16",
+        "component_drift_variance": "27/16",
+        "uniform_boost_invariant": true
+      },
+      {
+        "alpha": "1/2",
+        "relative_drift": "0",
+        "central_variance": "3/2",
+        "component_drift_variance": "0",
+        "uniform_boost_invariant": true
+      },
+      {
+        "alpha": "1/2",
+        "relative_drift": "1",
+        "central_variance": "7/4",
+        "component_drift_variance": "1/4",
+        "uniform_boost_invariant": true
+      },
+      {
+        "alpha": "1/2",
+        "relative_drift": "3",
+        "central_variance": "15/4",
+        "component_drift_variance": "9/4",
+        "uniform_boost_invariant": true
+      },
+      {
+        "alpha": "3/4",
+        "relative_drift": "0",
+        "central_variance": "7/4",
+        "component_drift_variance": "0",
+        "uniform_boost_invariant": true
+      },
+      {
+        "alpha": "3/4",
+        "relative_drift": "1",
+        "central_variance": "31/16",
+        "component_drift_variance": "3/16",
+        "uniform_boost_invariant": true
+      },
+      {
+        "alpha": "3/4",
+        "relative_drift": "3",
+        "central_variance": "55/16",
+        "component_drift_variance": "27/16",
+        "uniform_boost_invariant": true
+      }
+    ],
+    "thermal_scope": "Kinetic variance is defined for non-Maxwellians; mixture-drift broadening need not be irreversible heating. Public deck asks for intM2Thermal, so a raw-second-moment implementation error is not established."
+  },
+  "conditional_source_energy": {
+    "exact_Fourier_cases": [
+      {
+        "harmonic_count": 1,
+        "alignment_sign": -1,
+        "perturbation": "1/10000",
+        "noise": "1/1000000",
+        "initial_field_energy": "1/400000000",
+        "source_field_energy_derivative": "-1/20000000000",
+        "source_log_field_energy_rate": "-1/50",
+        "global_particle_moment_source": "0"
+      },
+      {
+        "harmonic_count": 1,
+        "alignment_sign": 0,
+        "perturbation": "1/10000",
+        "noise": "1/1000000",
+        "initial_field_energy": "1/400000000",
+        "source_field_energy_derivative": "0",
+        "source_log_field_energy_rate": "0",
+        "global_particle_moment_source": "0"
+      },
+      {
+        "harmonic_count": 1,
+        "alignment_sign": 1,
+        "perturbation": "1/10000",
+        "noise": "1/1000000",
+        "initial_field_energy": "1/400000000",
+        "source_field_energy_derivative": "1/20000000000",
+        "source_log_field_energy_rate": "1/50",
+        "global_particle_moment_source": "0"
+      },
+      {
+        "harmonic_count": 2,
+        "alignment_sign": -1,
+        "perturbation": "1/10000",
+        "noise": "1/1000000",
+        "initial_field_energy": "37/14400000000",
+        "source_field_energy_derivative": "-37/720000000000",
+        "source_log_field_energy_rate": "-1/50",
+        "global_particle_moment_source": "0"
+      },
+      {
+        "harmonic_count": 2,
+        "alignment_sign": 0,
+        "perturbation": "1/10000",
+        "noise": "1/1000000",
+        "initial_field_energy": "37/14400000000",
+        "source_field_energy_derivative": "0",
+        "source_log_field_energy_rate": "0",
+        "global_particle_moment_source": "0"
+      },
+      {
+        "harmonic_count": 2,
+        "alignment_sign": 1,
+        "perturbation": "1/10000",
+        "noise": "1/1000000",
+        "initial_field_energy": "37/14400000000",
+        "source_field_energy_derivative": "37/720000000000",
+        "source_log_field_energy_rate": "1/50",
+        "global_particle_moment_source": "0"
+      },
+      {
+        "harmonic_count": 3,
+        "alignment_sign": -1,
+        "perturbation": "1/10000",
+        "noise": "1/1000000",
+        "initial_field_energy": "329/72000000000",
+        "source_field_energy_derivative": "-329/3600000000000",
+        "source_log_field_energy_rate": "-1/50",
+        "global_particle_moment_source": "0"
+      },
+      {
+        "harmonic_count": 3,
+        "alignment_sign": 0,
+        "perturbation": "1/10000",
+        "noise": "1/1000000",
+        "initial_field_energy": "329/72000000000",
+        "source_field_energy_derivative": "0",
+        "source_log_field_energy_rate": "0",
+        "global_particle_moment_source": "0"
+      },
+      {
+        "harmonic_count": 3,
+        "alignment_sign": 1,
+        "perturbation": "1/10000",
+        "noise": "1/1000000",
+        "initial_field_energy": "329/72000000000",
+        "source_field_energy_derivative": "329/3600000000000",
+        "source_log_field_energy_rate": "1/50",
+        "global_particle_moment_source": "0"
+      }
+    ],
+    "orthogonal_source_controls": 3,
+    "identity": "Under self-adjoint periodic Poisson closure, Udot_source=mean(phi*S_rho). If S_rho=(noise/perturb)*delta_rho0 then Udot_source(0)=2*(noise/perturb)*U0.",
+    "source_specific_initial_rate": "1/50",
+    "limit": "Initial continuum conditional identity, not actual run power. The source has zero spatial-mean particle moments, which does not force zero electrostatic work. Later correlation can differ in sign/magnitude; a Vlasov-Maxwell/Ampere implementation needs its own Gauss/source treatment and actual outputs."
+  },
+  "positive_tables": {
+    "ENL_table1": [
+      {
+        "run": "Main",
+        "normalized_ENL": "0.02652582384864922262814729389541906033907660762340940812461122400981613",
+        "published_two_significant_digits": "2.7e-2"
+      },
+      {
+        "run": "M25E10",
+        "normalized_ENL": "0.1061032953945968905125891755816762413563064304936376324984448960392645",
+        "published_two_significant_digits": "1.1e-1"
+      },
+      {
+        "run": "M50E10",
+        "normalized_ENL": "0.05305164769729844525629458779083812067815321524681881624922244801963227",
+        "published_two_significant_digits": "5.3e-2"
+      },
+      {
+        "run": "M200E10",
+        "normalized_ENL": "0.01326291192432461131407364694770953016953830381170470406230561200490807",
+        "published_two_significant_digits": "1.3e-2"
+      },
+      {
+        "run": "M25E1",
+        "normalized_ENL": "0.1061032953945968905125891755816762413563064304936376324984448960392645",
+        "published_two_significant_digits": "1.1e-1"
+      },
+      {
+        "run": "M25E2",
+        "normalized_ENL": "0.1061032953945968905125891755816762413563064304936376324984448960392645",
+        "published_two_significant_digits": "1.1e-1"
+      },
+      {
+        "run": "M25E4",
+        "normalized_ENL": "0.1061032953945968905125891755816762413563064304936376324984448960392645",
+        "published_two_significant_digits": "1.1e-1"
+      },
+      {
+        "run": "M25E6",
+        "normalized_ENL": "0.1061032953945968905125891755816762413563064304936376324984448960392645",
+        "published_two_significant_digits": "1.1e-1"
+      },
+      {
+        "run": "M25E8",
+        "normalized_ENL": "0.1061032953945968905125891755816762413563064304936376324984448960392645",
+        "published_two_significant_digits": "1.1e-1"
+      },
+      {
+        "run": "T20",
+        "normalized_ENL": "0.04244131815783875620503567023267049654252257219745505299937795841570581",
+        "published_two_significant_digits": "4.2e-2"
+      },
+      {
+        "run": "T100",
+        "normalized_ENL": "0.2122065907891937810251783511633524827126128609872752649968897920785291",
+        "published_two_significant_digits": "2.1e-1"
+      }
+    ],
+    "Wsat_table2": [
+      {
+        "run": "M25E2",
+        "predicted_percent": "0.1767766952966368811002110905262122598212089844221185091470849672488416",
+        "printed_percent": ".18"
+      },
+      {
+        "run": "M25E4",
+        "predicted_percent": "0.3535533905932737622004221810524245196424179688442370182941699344976831",
+        "printed_percent": ".35"
+      },
+      {
+        "run": "M25E10",
+        "predicted_percent": "0.8838834764831844055010554526310612991060449221105925457354248362442078",
+        "printed_percent": ".88"
+      },
+      {
+        "run": "Main",
+        "predicted_percent": "1.767766952966368811002110905262122598212089844221185091470849672488416",
+        "printed_percent": "1.77"
+      },
+      {
+        "run": "M200E10",
+        "predicted_percent": "2.5",
+        "printed_percent": "2.50"
+      }
+    ],
+    "Main_Eq4_7_tau_omega_pe": "2025",
+    "heating_fit_coefficient": "20.22325394193525919786414875619868252354630781789035744642652025326747",
+    "positive_assumptions": "Table normalization, quasi-linear saturation estimate and empirical duration algebra; not independent reproduction of nonlinear source data."
+  },
+  "counts": {
+    "A1_integrand_cases": 18,
+    "cold_limit_controls": 6,
+    "growth_cases": 18,
+    "constant_growth_controls": 4,
+    "literal_threshold_roots": 12,
+    "Gaussian_normalization_rescue_cases": 4,
+    "forcing_mass_ratios": 5,
+    "beta_cases": 3,
+    "mixture_variance_cases": 9,
+    "source_energy_Fourier_cases": 9,
+    "orthogonal_source_energy_controls": 3,
+    "ENL_rows": 11,
+    "Wsat_rows": 5
+  },
+  "limits": [
+    "No source figures/raw nonlinear histories reconstructed.",
+    "Unknown display-versus-implementation correspondence remains explicit.",
+    "The1p erratum corrects editor acknowledgement wording only and is already reflected in currentVOR.",
+    "Literal numerical threshold inconsistency is distinguished from order-one trapping/saturation conventions and empirical regime classification."
+  ]
+}

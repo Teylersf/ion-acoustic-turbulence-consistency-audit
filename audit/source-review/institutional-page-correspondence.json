@@ -1,0 +1,239 @@
+{
+  "method": "NFKC+whitespace removal; official VOR DOI footer removed; first-page publisher frontmatter excluded. Text comparison, not pixel or byte identity.",
+  "pairs": [
+    {
+      "VOR_PDF_page": 1,
+      "institutional_PDF_page": 2,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 2,
+      "institutional_PDF_page": 3,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 3,
+      "institutional_PDF_page": 4,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 4,
+      "institutional_PDF_page": 5,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 5,
+      "institutional_PDF_page": 6,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 6,
+      "institutional_PDF_page": 7,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 7,
+      "institutional_PDF_page": 8,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 8,
+      "institutional_PDF_page": 9,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 9,
+      "institutional_PDF_page": 10,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 10,
+      "institutional_PDF_page": 11,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 11,
+      "institutional_PDF_page": 12,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 12,
+      "institutional_PDF_page": 13,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 13,
+      "institutional_PDF_page": 14,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 14,
+      "institutional_PDF_page": 15,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 15,
+      "institutional_PDF_page": 16,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 16,
+      "institutional_PDF_page": 17,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 17,
+      "institutional_PDF_page": 18,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 18,
+      "institutional_PDF_page": 19,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 19,
+      "institutional_PDF_page": 20,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 20,
+      "institutional_PDF_page": 21,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 21,
+      "institutional_PDF_page": 22,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 22,
+      "institutional_PDF_page": 23,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 23,
+      "institutional_PDF_page": 24,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 24,
+      "institutional_PDF_page": 25,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 25,
+      "institutional_PDF_page": 26,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 26,
+      "institutional_PDF_page": 27,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 27,
+      "institutional_PDF_page": 28,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 28,
+      "institutional_PDF_page": 29,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 29,
+      "institutional_PDF_page": 30,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 30,
+      "institutional_PDF_page": 31,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 31,
+      "institutional_PDF_page": 32,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 32,
+      "institutional_PDF_page": 33,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 33,
+      "institutional_PDF_page": 34,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 34,
+      "institutional_PDF_page": 35,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 35,
+      "institutional_PDF_page": 36,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 36,
+      "institutional_PDF_page": 37,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 37,
+      "institutional_PDF_page": 38,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 38,
+      "institutional_PDF_page": 39,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    {
+      "VOR_PDF_page": 39,
+      "institutional_PDF_page": 40,
+      "normalized_text_equal": true,
+      "normalized_text_similarity": 1.0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checked_at_UTC": "2026-10-30T00:17:35.847637+00:00",
+  "python": "3.13.7",
+  "manifest_sha256": "a2aa25b5066c879c031cb9841302ba06d690b884f4532192f73509cb666d1ab5",
+  "verifier_sha256": "c2d9b1906ee30dd77167735fe91d086d2f86fa6e6d6da0527a906af29448870c",
+  "clean_relative_directory_name": "clean-integrated-06dac6f1465e",
+  "bundled_files_checked": 25,
+  "source_code_PDFs_Git_and_network_needed": false,
+  "actual_clean_run_exit_code": 0,
+  "clean_stdout": "{\"status\": \"passed\", \"bundled_files_checked\": 25, \"input_files_Git_verified\": 13}",
+  "clean_stderr_empty": true,
+  "same_verification_bytes_as_packaged_run": true,
+  "all_bundled_input_bytes_unchanged": true,
+  "all_13_input_Git_blobs_verified": true
+}

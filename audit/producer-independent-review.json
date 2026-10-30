@@ -1,0 +1,158 @@
+{
+  "status": "passed",
+  "scope": "Independent static producer review, independent analytic/numerical validation of its existing outputs, byte comparison of existing two-runtime outputs, and direct visual inspection of both final synthetic PNGs. No producer execution, source-simulation reproduction, Git or external mutation was performed by this review.",
+  "review_type": "Independent internal review; not external human peer review",
+  "inputs": {
+    "reproduction/run_audit.py": {
+      "sha256": "8c169cf1f986642fcc582c1ea27c13d97436121146c1c7c37b668386d43f80fd",
+      "bytes": 13492
+    },
+    "data/consistency-controls.json": {
+      "sha256": "9d36309bf05c6c007193a678b6f9ee009529f5c3ae37b6c96cbe3cba323c683d",
+      "bytes": 20862
+    },
+    "data/growth-controls.csv": {
+      "sha256": "13d5a22f0fcdd83397fb29926f4fcb51d016d4e0513a8d97404b8882ac5565d1",
+      "bytes": 691
+    },
+    "data/threshold-controls.csv": {
+      "sha256": "bf37797758e38621b173b4b70aca71220228c5b9c3dbaea1cbc4b0c88611fedd",
+      "bytes": 1695
+    },
+    "figures/growth-and-threshold-controls.png": {
+      "sha256": "cf7ed7964839c1f6a3aa67755d8ea2b56b0d0d172961da6636aabc6229f9f79c",
+      "bytes": 149484
+    },
+    "figures/normalization-and-configuration-controls.png": {
+      "sha256": "9ff97c5a0d31ca1a0c17e9c38d6d3176de7cb7dbe967a732f94db695f9c69300",
+      "bytes": 145557
+    },
+    "README.md": {
+      "sha256": "c08aaf5eb5a672e70ee6bf728bb08c65d0f37089873ef97515e212c7edc62432",
+      "bytes": 1277
+    },
+    "audit/producer-independent-review/verify_outputs.py": {
+      "sha256": "2301f0bee27ba4e7f7108470ecf726efeddf1fe6bfef40481a6345da86c404dc",
+      "bytes": 7871
+    },
+    "audit/producer-independent-review/checks.json": {
+      "sha256": "17f710ff3dae4ec08a44978fb1cce1370363733cfe28b6013b606da922581632",
+      "bytes": 1525
+    },
+    "audit/producer-independent-review/runtime-byte-comparison.json": {
+      "sha256": "276bf724b11cb0311f888ae41ac0c8fe9c2e015489c6583c8d0eb2ac776b9ba0",
+      "bytes": 730
+    }
+  },
+  "source_review": {
+    "publisher_pages_read": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "erratum_pages_read": [
+      1
+    ],
+    "publisher_visual_pages_inspected": [
+      5,
+      7,
+      10,
+      23,
+      25,
+      28,
+      30
+    ],
+    "source_tex_displays_and_Main_lua_read": true,
+    "independent_science_report_sha256": "22bb402005615949ddb35b77d9a8efd32e7e9ea7425b6d00d6aae3dcacd28ef6",
+    "independent_science_program_sha256": "858018139998885fad683261a4e8c12fb3a4e004b165b97451865c21dafdc620",
+    "independent_science_results_sha256": "91562045d39acc39d88ab2b55cc38ebb7bf4636d3a42d769ed7151fecdc6e457"
+  },
+  "independent_output_validation": {
+    "status": "passed",
+    "producer_imported": false,
+    "producer_executed": false,
+    "method": "Independent exact Fraction identities, 80-digit closed LambertW roots, direct finite Fourier Poisson inner products and CSV/JSON checks; producer never imported or executed.",
+    "counts": {
+      "rational_growth_states": 24,
+      "threshold_rows": 20,
+      "forcing_rows": 4,
+      "beta_rows": 5,
+      "ENL_rows": 11,
+      "Wsat_rows": 5,
+      "collisional_exposure_rows": 7,
+      "source_energy_Fourier_rows": 3
+    },
+    "two_threshold_coefficient_models_checked_per_row": true,
+    "max_threshold_relative_error": "3.74628552632222034791382152624e-16",
+    "both_CSVs_match_JSON": true,
+    "numeric_inputs_unchanged": true,
+    "existing_python312_and_python313_outputs_byte_identical": true,
+    "verification_runtime": "3.13.7",
+    "mpmath_decimal_digits": 80,
+    "optimized_python_guard_rejected": true
+  },
+  "static_review": {
+    "growth_integration_and_initial_anchor": "passed",
+    "monotone_threshold_root_and_order_one_width_qualification": "passed",
+    "external_physical_field_positive_control": "passed",
+    "Gaussian_beta_reduction": "passed",
+    "A1_denominator_identity_and_cold_limit_scope": "passed",
+    "thermal_and_Z_convention_rescues": "retained",
+    "source_energy_identity": "Passed only under the declared periodic continuum self-adjoint Poisson initialization assumptions. It is not a measurement of released-run power.",
+    "self_collision_scope": "Self-only frequencies and cumulative exposures are not equated to electron-ion drag or demonstrated changes in published curves.",
+    "positive_ENL_Wsat_lifetime_controls": "passed",
+    "no_producer_dependency_on_independent_program": "passed"
+  },
+  "visual_review": {
+    "both_final_images_opened_at_readable_resolution": true,
+    "titles_axes_units_curves_legends": "passed",
+    "no_clipped_labels_or_caps": "passed",
+    "declared_synthetic_or_conditional_scope": "passed",
+    "fonts": "Current final font sizes are readable; producer declares base 14 pt, ticks 12 pt, legends 11.5 pt.",
+    "earlier_minor_E12_marker_legend_overlap": "Resolved by moving the threshold-panel legend to the lower right. The black reported-E12 marker is now unobscured."
+  },
+  "findings_limitations": [
+    "Printed algebra and conditional normalization findings do not establish that the source authors used those expressions in simulation analysis.",
+    "The variance-one plasma-dispersion-function convention exactly rescues the apparent thermal sqrt(2) discrepancy; it is not an unconditional error.",
+    "E11 is retained as a positive bridge from correctly integrated growth. Literal E12 inconsistency is distinct from a universal revised nonlinear threshold.",
+    "Released inputs and historical solver inspection do not establish the exact executed binary or output behavior.",
+    "No source simulations, source raw output, actual injected source power, nonlinear saturation or ion heating were reproduced."
+  ],
+  "actionable_blockers": []
+}

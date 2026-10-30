@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "python": "3.13.7",
+  "program_sha256": "c2d9b1906ee30dd77167735fe91d086d2f86fa6e6d6da0527a906af29448870c",
+  "manifest_sha256": "a2aa25b5066c879c031cb9841302ba06d690b884f4532192f73509cb666d1ab5",
+  "bundled_files_checked": 25,
+  "all_13_input_files_equal_recorded_Git_blobs": true,
+  "all_bundled_inputs_byte_unchanged": true,
+  "source_identity_semantics": "Source PDF/source-module hashes are recorded acquisition identities; absent PDFs and historical solver modules are not rehashed by this offline program.",
+  "original_source_PDF_or_solver_code_required": false,
+  "network_or_Git_required": false,
+  "simulation_or_source_Lua_executed": false
+}

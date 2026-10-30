@@ -1,0 +1,119 @@
+{
+  "repository": "gkeyllorg/gkyl-paper-inp",
+  "article_link_original_owner": "ammarhakim",
+  "directory": "2023_JPP_iat",
+  "current_directory_commit": "7209ddbfe432b1826df3aa1f7f9fa7f32053a3af",
+  "commit_date": "2023-10-03T16:13:17Z",
+  "commit_message": "fix readme",
+  "files": [
+    {
+      "name": "1D.lua",
+      "bytes": 5941,
+      "sha256": "5656805b2c1f32caa51825cc356bf769efa3fae955d9bec2573a0c24740da3e9",
+      "Git_blob_SHA1": "80fd51a40af4b36a9960ae06654da9642cf8ceab",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/1D.lua",
+      "HTTP_status": 200
+    },
+    {
+      "name": "M200E10.lua",
+      "bytes": 6647,
+      "sha256": "ba94c036f0e244c064a151a42963ddf5c5146d1864608e91360d92c9ef66afe4",
+      "Git_blob_SHA1": "3cfe0dd934c54bd919570303c8d6abfce8a025fe",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M200E10.lua",
+      "HTTP_status": 200
+    },
+    {
+      "name": "M25E1.lua",
+      "bytes": 6652,
+      "sha256": "0283095b74d49faea56ed1de0289fc1e27c10609504f6ae0eab20e981c61489e",
+      "Git_blob_SHA1": "9b9f289040463091afb1496c620a4976483e4fba",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M25E1.lua",
+      "HTTP_status": 200
+    },
+    {
+      "name": "M25E10.lua",
+      "bytes": 6625,
+      "sha256": "2067b514ce1d060c3b9e08f28ef694fd1df3b4ac9aa1059c6750af2b24859133",
+      "Git_blob_SHA1": "de44d1837f0999d52ca4179474570e4ecc23d4dc",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M25E10.lua",
+      "HTTP_status": 200
+    },
+    {
+      "name": "M25E2.lua",
+      "bytes": 6650,
+      "sha256": "cd775e1cbb7dca2596f1434cd6bb810aa2a6c16529e0947c2b64358b53c4ef32",
+      "Git_blob_SHA1": "8d064315233e68c85f5ef90d0fe0ff30f553f823",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M25E2.lua",
+      "HTTP_status": 200
+    },
+    {
+      "name": "M25E4.lua",
+      "bytes": 6650,
+      "sha256": "7ecc83d798086961467e61dc9c519895867585e80d4a1d924eeb8c94370492db",
+      "Git_blob_SHA1": "a2496306552fa44adc3979978e92169839d19796",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M25E4.lua",
+      "HTTP_status": 200
+    },
+    {
+      "name": "M25E6.lua",
+      "bytes": 6650,
+      "sha256": "1d71686047c9ae784171264ed106abb2db92c76254ae7296602996f6420b21f0",
+      "Git_blob_SHA1": "757caf4b93983124961a7ced123377bc51aa2669",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M25E6.lua",
+      "HTTP_status": 200
+    },
+    {
+      "name": "M25E8.lua",
+      "bytes": 6650,
+      "sha256": "4c73461103da87ae73918220b4287aeb1e0d62822afcd3e7cb3c1419d3aeeb38",
+      "Git_blob_SHA1": "19cb7fece39757783f60aaef64e7abf9e4d9a7c2",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M25E8.lua",
+      "HTTP_status": 200
+    },
+    {
+      "name": "M50E10.lua",
+      "bytes": 6646,
+      "sha256": "ae36850a28ad29a01eb7c3dcde91030714345a40f38cb0d4ad646f56e86ae995",
+      "Git_blob_SHA1": "c0052158efe3371929982ffd3d19327e04e09934",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M50E10.lua",
+      "HTTP_status": 200
+    },
+    {
+      "name": "Main.lua",
+      "bytes": 6650,
+      "sha256": "940969dfec824be5ec9244d50cb2e9d7f25642eedda3fe033d3e69c4831b84e6",
+      "Git_blob_SHA1": "7bab0623ea6696bf6b451e84b5f647e515b09b06",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/Main.lua",
+      "HTTP_status": 200
+    },
+    {
+      "name": "README.md",
+      "bytes": 309,
+      "sha256": "c4c6ec31a3c9050f5a849bcd1d2614364f778896367532f34f6210cc8de07ef6",
+      "Git_blob_SHA1": "4066065d40a2422e244a235a8836641ac381675c",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/README.md",
+      "HTTP_status": 200
+    },
+    {
+      "name": "T100.lua",
+      "bytes": 6624,
+      "sha256": "cc6ec876f47eb51af221eb65e151bb9e3ab2e5defac37f9ecbee4530b5a6250a",
+      "Git_blob_SHA1": "3198284db7987d44dd9d575215dd7b657361be23",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/T100.lua",
+      "HTTP_status": 200
+    },
+    {
+      "name": "T20.lua",
+      "bytes": 6626,
+      "sha256": "4d9a403eca8fdf0c7dc3877da18300fdf7452972046baec51383d77ba1cb51c9",
+      "Git_blob_SHA1": "7f4a20c33b2cfab3880edad47a74e187f1a1ce44",
+      "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/T20.lua",
+      "HTTP_status": 200
+    }
+  ],
+  "file_count": 13,
+  "all_Git_blobs_independently_verified": true,
+  "code_executed": false,
+  "historical_target_execution_identity_proven": false,
+  "scope": "Current public text-only input deposit linked by the article; no solver binary, raw trajectories or postprocessing recovered by this directory inspection."
+}

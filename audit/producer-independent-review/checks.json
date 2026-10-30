@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "method": "Independent exact Fraction identities, 80-digit closed LambertW roots, direct finite Fourier Poisson inner products and CSV/JSON checks; producer never imported or executed.",
+  "verifier_sha256": "2301f0bee27ba4e7f7108470ecf726efeddf1fe6bfef40481a6345da86c404dc",
+  "counts": {
+    "rational_growth_states": 24,
+    "threshold_rows": 20,
+    "forcing_rows": 4,
+    "beta_rows": 5,
+    "ENL_rows": 11,
+    "Wsat_rows": 5,
+    "collisional_exposure_rows": 7,
+    "source_energy_Fourier_rows": 3
+  },
+  "max_threshold_relative_error_vs_80digit_closed_form": "3.74628552632222034791382152624e-16",
+  "both_CSVs_match_JSON": true,
+  "input_sha256": {
+    "data/consistency-controls.json": "9d36309bf05c6c007193a678b6f9ee009529f5c3ae37b6c96cbe3cba323c683d",
+    "data/growth-controls.csv": "13d5a22f0fcdd83397fb29926f4fcb51d016d4e0513a8d97404b8882ac5565d1",
+    "data/threshold-controls.csv": "bf37797758e38621b173b4b70aca71220228c5b9c3dbaea1cbc4b0c88611fedd",
+    "reproduction/run_audit.py": "8c169cf1f986642fcc582c1ea27c13d97436121146c1c7c37b668386d43f80fd",
+    "figures/growth-and-threshold-controls.png": "cf7ed7964839c1f6a3aa67755d8ea2b56b0d0d172961da6636aabc6229f9f79c",
+    "figures/normalization-and-configuration-controls.png": "9ff97c5a0d31ca1a0c17e9c38d6d3176de7cb7dbe967a732f94db695f9c69300"
+  },
+  "all_numeric_inputs_unchanged": true,
+  "limits": "Display consistency and conditional continuum witnesses only; no source simulation/output or actual source-power calculation."
+}

@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "recorded_at_UTC": "2026-10-30T00:16:56.973825+00:00",
+  "scope": "Source-edition preflight, published erratum identification and bounded public-input/solver-semantics inspection. No source simulation or original raw-output reanalysis.",
+  "paired_queue_document_ids": [
+    "doc-101017s0022377824000291",
+    "doc-2309.05563"
+  ],
+  "target_publication": {
+    "title": "A two-dimensional numerical study of ion-acoustic turbulence",
+    "DOI": "10.1017/s0022377824000060",
+    "journal": "Journal of Plasma Physics",
+    "volume": "90",
+    "issue": "1",
+    "article": "965900101",
+    "published_online": "2024-02-02",
+    "authors": [
+      {
+        "given": "Zhuo",
+        "family": "Liu"
+      },
+      {
+        "given": "Ryan",
+        "family": "White"
+      },
+      {
+        "given": "Manaure",
+        "family": "Francisquez"
+      },
+      {
+        "given": "Lucio M.",
+        "family": "Milanese"
+      },
+      {
+        "given": "Nuno F.",
+        "family": "Loureiro"
+      }
+    ],
+    "received": "2023-10-03",
+    "revised": "2023-12-31",
+    "accepted": "2024-01-05",
+    "license": "CC BY 4.0",
+    "license_URL": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "supplied_original": {
+    "filename": "supplied-original.pdf",
+    "bytes": 7124730,
+    "sha256": "65abe8f1ed9b23f393b0f21a82ff62a88a80c17fb770b7e73688de1c969bf5d3",
+    "pages": 39
+  },
+  "official_arxiv": {
+    "abstract_URL": "https://arxiv.org/abs/2309.05563",
+    "v1_submitted_UTC": "2023-09-11T15:49:28Z",
+    "v2_submitted_UTC": "2024-01-02T06:38:44Z",
+    "latest_version_at_check": 2,
+    "v1": {
+      "filename": "arxiv-v1.pdf",
+      "bytes": 4085502,
+      "sha256": "caf708ac5a8526b160f20977afa154a29c737030bedae50c713a4dd47a4c234e",
+      "pages": 21,
+      "official_URL": "https://arxiv.org/pdf/2309.05563v1"
+    },
+    "v2": {
+      "filename": "arxiv-v2.pdf",
+      "bytes": 7124730,
+      "sha256": "65abe8f1ed9b23f393b0f21a82ff62a88a80c17fb770b7e73688de1c969bf5d3",
+      "pages": 39,
+      "official_URL": "https://arxiv.org/pdf/2309.05563v2"
+    },
+    "supplied_byte_identical_to_official_v2": true,
+    "PDF_v1_byline_authors": 4,
+    "PDF_v2_byline_authors": 5,
+    "current_abstract_metadata_authors": 4,
+    "metadata_does_not_override_actual_PDF_byline": true,
+    "current_arxiv_license_URL": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "source_archive": {
+      "URL": "https://arxiv.org/src/2309.05563v2",
+      "bytes": 5721000,
+      "sha256": "9a90c107557ac010efe46f875aed436500bd8ed4bcc3969d1df7569fe35591c3",
+      "safe_extraction_files": 24,
+      "main_TeX_member": "jpp-instructions.tex",
+      "main_TeX_sha256": "a7a5f1ead913eaebd8bc2c793693bd8b5083d9c2459a4061fd3b90e96da710a2"
+    }
+  },
+  "publisher_VOR": {
+    "filename": "publisher-original.pdf",
+    "bytes": 3480337,
+    "sha256": "ece6a9ed59a5646d817db11c5468398a281b3704f223e59819f37faf75e29034",
+    "pages": 39,
+    "official_URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/33DFC17224FA91930C6814F820BF9866/S0022377824000060a.pdf/a-two-dimensional-numerical-study-of-ion-acoustic-turbulence.pdf"
+  },
+  "publisher_VOR_retrieval": {
+    "requested_URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/33DFC17224FA91930C6814F820BF9866/S0022377824000060a.pdf/a-two-dimensional-numerical-study-of-ion-acoustic-turbulence.pdf",
+    "requested_at_UTC": "2026-10-29T23:54:05.111380+00:00",
+    "user_agent": "TaylorKalin-ResearchSourceAudit/1.0 (+https://taylorkalin.com)",
+    "timeout_seconds": 30,
+    "serial_acquisition": true,
+    "HTTP_status": 200,
+    "final_public_URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/33DFC17224FA91930C6814F820BF9866/S0022377824000060a.pdf/a-two-dimensional-numerical-study-of-ion-acoustic-turbulence.pdf",
+    "content_type": "application/pdf",
+    "bytes": 3480337,
+    "sha256": "ece6a9ed59a5646d817db11c5468398a281b3704f223e59819f37faf75e29034"
+  },
+  "published_erratum": {
+    "title": "A two-dimensional numerical study of ion-acoustic turbulence \u2013 ERRATUM",
+    "DOI": "10.1017/s0022377824000291",
+    "journal": "Journal of Plasma Physics",
+    "volume": "90",
+    "issue": "2",
+    "article": "945900201",
+    "published_online": "2024-04-04",
+    "official": {
+      "filename": "publisher-erratum.pdf",
+      "bytes": 46063,
+      "sha256": "2aa9f637c6a841943bfdc41ea7ca25a10b709fb3c6679c84707eab07ddc2c830",
+      "pages": 1,
+      "official_URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F836C07C9C3F3D4F9D1E1B3EB2D8ECDF/S0022377824000291a.pdf/a-two-dimensional-numerical-study-of-ion-acoustic-turbulence-erratum.pdf"
+    },
+    "supplied_byte_identical": true,
+    "scope": "Editorial acknowledgement phrase correction only; no equation, numerical result or scientific conclusion corrected.",
+    "already_incorporated_in_current_VOR_acknowledgement_page": 24,
+    "license": "CC BY 4.0",
+    "correction_not_claimed_as_new_discovery": true
+  },
+  "primary_registry_records": {
+    "original_URL": "https://api.crossref.org/works/10.1017/S0022377824000060",
+    "original_record_sha256": "8967d158cb785dba0774013e7e72b454015a5ae17ad664d172b970c092fe5560",
+    "original_updated_by": [
+      {
+        "DOI": "10.1017/s0022377824000291",
+        "type": "correction",
+        "label": "Correction",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              2
+            ]
+          ],
+          "date-time": "2024-02-02T00:00:00Z",
+          "timestamp": 1706832000000
+        }
+      }
+    ],
+    "erratum_URL": "https://api.crossref.org/works/10.1017/S0022377824000291",
+    "erratum_record_sha256": "9e8265cec484a53f46f7e8608cba09a6ba0a5bc869c5e4dc4bd5e93cfd32ec88",
+    "erratum_update_to": [
+      {
+        "DOI": "10.1017/s0022377824000060",
+        "type": "correction",
+        "label": "Correction",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              2
+            ]
+          ],
+          "date-time": "2024-02-02T00:00:00Z",
+          "timestamp": 1706832000000
+        }
+      }
+    ],
+    "update_metadata_date_not_substituted_for_erratum_publication_date": true
+  },
+  "institutional_comparison": {
+    "identity": {
+      "filename": "institutional-comparison.pdf",
+      "bytes": 3494569,
+      "sha256": "c5af7f9f0d4354fb53d23ff08123f84eca1c0894ae64adb25a1cf18c070a9e1f",
+      "pages": 40
+    },
+    "cover_pages": 1,
+    "article_pages": 39,
+    "body_classification": "Publisher-styled article, not the arXiv draft and not the standalone erratum.",
+    "all_39_article_pages_equal_VOR_after_declared_text_normalization": true,
+    "normalization": "NFKC, whitespace removal, VOR DOI footer removal and first-page publisher-frontmatter exclusion.",
+    "byte_or_pixel_identity_claimed": false
+  },
+  "direct_reading": {
+    "complete_supplied_v2_PDF_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "complete_erratum_PDF_pages": [
+      1
+    ],
+    "VOR_visual_pages": [
+      5,
+      7,
+      10,
+      23,
+      25,
+      28,
+      30
+    ],
+    "VOR_additional_text_pages": [
+      1,
+      6,
+      9,
+      24,
+      29
+    ],
+    "separate_full_VOR_read_by_this_preflight_reviewer_claimed": false,
+    "separate_full_v1_audit_claimed": false,
+    "Main_deck_complete_read": true,
+    "article_input_README_complete_read": true,
+    "complete_primary_cited_literature_audit_claimed": false
+  },
+  "available_input_deposit": {
+    "repository": "gkeyllorg/gkyl-paper-inp",
+    "article_link_original_owner": "ammarhakim",
+    "directory": "2023_JPP_iat",
+    "current_directory_commit": "7209ddbfe432b1826df3aa1f7f9fa7f32053a3af",
+    "commit_date": "2023-10-03T16:13:17Z",
+    "commit_message": "fix readme",
+    "files": [
+      {
+        "name": "1D.lua",
+        "bytes": 5941,
+        "sha256": "5656805b2c1f32caa51825cc356bf769efa3fae955d9bec2573a0c24740da3e9",
+        "Git_blob_SHA1": "80fd51a40af4b36a9960ae06654da9642cf8ceab",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/1D.lua",
+        "HTTP_status": 200
+      },
+      {
+        "name": "M200E10.lua",
+        "bytes": 6647,
+        "sha256": "ba94c036f0e244c064a151a42963ddf5c5146d1864608e91360d92c9ef66afe4",
+        "Git_blob_SHA1": "3cfe0dd934c54bd919570303c8d6abfce8a025fe",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M200E10.lua",
+        "HTTP_status": 200
+      },
+      {
+        "name": "M25E1.lua",
+        "bytes": 6652,
+        "sha256": "0283095b74d49faea56ed1de0289fc1e27c10609504f6ae0eab20e981c61489e",
+        "Git_blob_SHA1": "9b9f289040463091afb1496c620a4976483e4fba",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M25E1.lua",
+        "HTTP_status": 200
+      },
+      {
+        "name": "M25E10.lua",
+        "bytes": 6625,
+        "sha256": "2067b514ce1d060c3b9e08f28ef694fd1df3b4ac9aa1059c6750af2b24859133",
+        "Git_blob_SHA1": "de44d1837f0999d52ca4179474570e4ecc23d4dc",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M25E10.lua",
+        "HTTP_status": 200
+      },
+      {
+        "name": "M25E2.lua",
+        "bytes": 6650,
+        "sha256": "cd775e1cbb7dca2596f1434cd6bb810aa2a6c16529e0947c2b64358b53c4ef32",
+        "Git_blob_SHA1": "8d064315233e68c85f5ef90d0fe0ff30f553f823",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M25E2.lua",
+        "HTTP_status": 200
+      },
+      {
+        "name": "M25E4.lua",
+        "bytes": 6650,
+        "sha256": "7ecc83d798086961467e61dc9c519895867585e80d4a1d924eeb8c94370492db",
+        "Git_blob_SHA1": "a2496306552fa44adc3979978e92169839d19796",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M25E4.lua",
+        "HTTP_status": 200
+      },
+      {
+        "name": "M25E6.lua",
+        "bytes": 6650,
+        "sha256": "1d71686047c9ae784171264ed106abb2db92c76254ae7296602996f6420b21f0",
+        "Git_blob_SHA1": "757caf4b93983124961a7ced123377bc51aa2669",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M25E6.lua",
+        "HTTP_status": 200
+      },
+      {
+        "name": "M25E8.lua",
+        "bytes": 6650,
+        "sha256": "4c73461103da87ae73918220b4287aeb1e0d62822afcd3e7cb3c1419d3aeeb38",
+        "Git_blob_SHA1": "19cb7fece39757783f60aaef64e7abf9e4d9a7c2",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M25E8.lua",
+        "HTTP_status": 200
+      },
+      {
+        "name": "M50E10.lua",
+        "bytes": 6646,
+        "sha256": "ae36850a28ad29a01eb7c3dcde91030714345a40f38cb0d4ad646f56e86ae995",
+        "Git_blob_SHA1": "c0052158efe3371929982ffd3d19327e04e09934",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/M50E10.lua",
+        "HTTP_status": 200
+      },
+      {
+        "name": "Main.lua",
+        "bytes": 6650,
+        "sha256": "940969dfec824be5ec9244d50cb2e9d7f25642eedda3fe033d3e69c4831b84e6",
+        "Git_blob_SHA1": "7bab0623ea6696bf6b451e84b5f647e515b09b06",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/Main.lua",
+        "HTTP_status": 200
+      },
+      {
+        "name": "README.md",
+        "bytes": 309,
+        "sha256": "c4c6ec31a3c9050f5a849bcd1d2614364f778896367532f34f6210cc8de07ef6",
+        "Git_blob_SHA1": "4066065d40a2422e244a235a8836641ac381675c",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/README.md",
+        "HTTP_status": 200
+      },
+      {
+        "name": "T100.lua",
+        "bytes": 6624,
+        "sha256": "cc6ec876f47eb51af221eb65e151bb9e3ab2e5defac37f9ecbee4530b5a6250a",
+        "Git_blob_SHA1": "3198284db7987d44dd9d575215dd7b657361be23",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/T100.lua",
+        "HTTP_status": 200
+      },
+      {
+        "name": "T20.lua",
+        "bytes": 6626,
+        "sha256": "4d9a403eca8fdf0c7dc3877da18300fdf7452972046baec51383d77ba1cb51c9",
+        "Git_blob_SHA1": "7f4a20c33b2cfab3880edad47a74e187f1a1ce44",
+        "pinned_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/2023_JPP_iat/T20.lua",
+        "HTTP_status": 200
+      }
+    ],
+    "file_count": 13,
+    "all_Git_blobs_independently_verified": true,
+    "code_executed": false,
+    "historical_target_execution_identity_proven": false,
+    "scope": "Current public text-only input deposit linked by the article; no solver binary, raw trajectories or postprocessing recovered by this directory inspection."
+  },
+  "historical_solver_selected_source_metadata": {
+    "source_commit": "69f26286dcc7640024804ba6b1c5ea16d409f759",
+    "tree": "770d75a658c55d7b4d1ecd247ab6d4ebacc683a4",
+    "repository": "liangwang0734/gkyl",
+    "all_fetched_blobs_match_primary_tree": true,
+    "files": [
+      {
+        "path": "App/Collisions/VmLBOCollisions.lua",
+        "bytes": 23264,
+        "sha256": "89e3b1accfb78aaf54cd3660ea17f68aed678845dcfdf29dcb9719af75f17803",
+        "Git_blob_SHA1": "9c05dc73ae5f1f20e1e8c8ec6b183e5fe9718c31",
+        "URL": "https://raw.githubusercontent.com/liangwang0734/gkyl/69f26286dcc7640024804ba6b1c5ea16d409f759/App/Collisions/VmLBOCollisions.lua",
+        "HTTP_status": 200,
+        "retrieved_at_UTC": "2026-10-30T00:02:00.433384+00:00"
+      },
+      {
+        "path": "App/Field/MaxwellField.lua",
+        "bytes": 36499,
+        "sha256": "cb3fd50550af1345b780563662d110644de276f428cc88dc342474a0a31f0cc0",
+        "Git_blob_SHA1": "7edcff40f53fefaf31dc322dae288d33990fe3e0",
+        "URL": "https://raw.githubusercontent.com/liangwang0734/gkyl/69f26286dcc7640024804ba6b1c5ea16d409f759/App/Field/MaxwellField.lua",
+        "HTTP_status": 200,
+        "retrieved_at_UTC": "2026-10-30T00:02:00.738262+00:00"
+      },
+      {
+        "path": "App/Sources/VmSource.lua",
+        "bytes": 5643,
+        "sha256": "6f62a194e54872b78ddb349ab4e1970aa388d245c2da3b3bd6b131277e15aa1e",
+        "Git_blob_SHA1": "056f734cc93c40ab7968a924a5f8a4147b0bb3ce",
+        "URL": "https://raw.githubusercontent.com/liangwang0734/gkyl/69f26286dcc7640024804ba6b1c5ea16d409f759/App/Sources/VmSource.lua",
+        "HTTP_status": 200,
+        "retrieved_at_UTC": "2026-10-30T00:02:00.957531+00:00"
+      },
+      {
+        "path": "App/Species/VlasovSpecies.lua",
+        "bytes": 36777,
+        "sha256": "e82d46e7f1926d389fcebd43ab05afcbc159a1c7701e9678b6e0987190210ee4",
+        "Git_blob_SHA1": "093b71c5fe8748d50bae041f92a599ffe5efe52e",
+        "URL": "https://raw.githubusercontent.com/liangwang0734/gkyl/69f26286dcc7640024804ba6b1c5ea16d409f759/App/Species/VlasovSpecies.lua",
+        "HTTP_status": 200,
+        "retrieved_at_UTC": "2026-10-30T00:02:01.182308+00:00"
+      },
+      {
+        "path": "Eq/Vlasov.lua",
+        "bytes": 10549,
+        "sha256": "fc0125128bc32b2856cc03345beac8a290826c9c838003ecc42485727629a64d",
+        "Git_blob_SHA1": "42ad48c7caddc612e2914bf8031f477163043c73",
+        "URL": "https://raw.githubusercontent.com/liangwang0734/gkyl/69f26286dcc7640024804ba6b1c5ea16d409f759/Eq/Vlasov.lua",
+        "HTTP_status": 200,
+        "retrieved_at_UTC": "2026-10-30T00:02:01.423109+00:00"
+      },
+      {
+        "path": "Eq/VmLBO.lua",
+        "bytes": 10901,
+        "sha256": "93d153271cfca17ccb77f19b76607d092f6a1c4459706d5c5bc30c2e8d6cdc49",
+        "Git_blob_SHA1": "f77632f7cd54fd978962a7ac27dfeb7f280044f0",
+        "URL": "https://raw.githubusercontent.com/liangwang0734/gkyl/69f26286dcc7640024804ba6b1c5ea16d409f759/Eq/VmLBO.lua",
+        "HTTP_status": 200,
+        "retrieved_at_UTC": "2026-10-30T00:02:01.701956+00:00"
+      },
+      {
+        "path": "App/PlasmaOnCartGrid.lua",
+        "bytes": 38348,
+        "sha256": "3f0017a122a98588255be1210979f025c22074de82d20f9b6b8f85a839c44f41",
+        "Git_blob_SHA1": "9f9886f05fed76ef05303dc5284834e612df1351",
+        "URL": "https://raw.githubusercontent.com/liangwang0734/gkyl/69f26286dcc7640024804ba6b1c5ea16d409f759/App/PlasmaOnCartGrid.lua",
+        "HTTP_status": 200,
+        "retrieved_at_UTC": "2026-10-30T00:02:01.937756+00:00"
+      },
+      {
+        "path": "App/Collisions/init.lua",
+        "bytes": 1634,
+        "sha256": "437fcaa3e9f1de84bc42ac277577d911ac9b23868a5cdbdadcc6ef81617e3efc",
+        "Git_blob_SHA1": "02df4edf4f18060b18c0b223c07e0220d9840584",
+        "URL": "https://raw.githubusercontent.com/liangwang0734/gkyl/69f26286dcc7640024804ba6b1c5ea16d409f759/App/Collisions/init.lua",
+        "HTTP_status": 200,
+        "retrieved_at_UTC": "2026-10-30T00:02:02.147540+00:00"
+      },
+      {
+        "path": "App/Sources/init.lua",
+        "bytes": 826,
+        "sha256": "8372d9d7e2f65fe38f85f2fbf4c837d2a093b3b66c5e1371e6d626ab11db30ad",
+        "Git_blob_SHA1": "41f1b0f0ffc168b105bda71e419a31be6b348e41",
+        "URL": "https://raw.githubusercontent.com/liangwang0734/gkyl/69f26286dcc7640024804ba6b1c5ea16d409f759/App/Sources/init.lua",
+        "HTTP_status": 200,
+        "retrieved_at_UTC": "2026-10-30T00:02:02.377341+00:00"
+      }
+    ]
+  },
+  "licensing": {
+    "input_repository": {
+      "repository": "gkeyllorg/gkyl-paper-inp",
+      "commit": "7209ddbfe432b1826df3aa1f7f9fa7f32053a3af",
+      "standalone_root_license_file_present": false,
+      "grant_location": "Root README.md, MIT LICENSE section; preceding sentence explicitly applies to code and data.",
+      "root_README_sha256": "a74cd5a3a6734e71860e6e1e2d05ffbda9804d5542c0b990ae4bb757f70b1027",
+      "root_README_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/README.md",
+      "license": "MIT",
+      "copyright": "Copyright 2012-2020 Ammar Hakim and the Gkeyll Team",
+      "extracted_notice_sha256": "818019914811a5f487ae8d4c87a10f40093df3e912d5cc6637ae53a05db16df3",
+      "copied_notice_exact_substring_of_upstream_root_README": true
+    },
+    "historical_solver": {
+      "repository": "liangwang0734/gkyl",
+      "commit": "69f26286dcc7640024804ba6b1c5ea16d409f759",
+      "standalone_root_license_file_present": false,
+      "grant_location": "Root README.md, License section",
+      "root_README_sha256": "9930de67fc91d8dc84e6d02ae980e37a6b695c1e0c52d047e737a0babb0ac075",
+      "root_README_URL": "https://raw.githubusercontent.com/liangwang0734/gkyl/69f26286dcc7640024804ba6b1c5ea16d409f759/README.md",
+      "terms_summary": "Specified institutional research use is permitted; commercial users are asked to contact the project. General forking is discussed. No MIT grant asserted.",
+      "complete_solver_modules_bundled": false
+    },
+    "our_license_scope": "Upstream input files retain their original MIT copyright/notice and are separate from Taylor Kalin original audit code/text. No source PDF or complete historical solver module is bundled."
+  },
+  "deck_inspection_controls": {
+    "original_program_basename": "inspect_deck_controls.py",
+    "original_program_sha256": "783a10de84b0842e66d95bd8a2cc5c529a1bdc72251de3eee30e50ad5856c18a",
+    "original_report_basename": "deck-model-controls.json",
+    "original_report_sha256": "b6836cf9abc6484918e1903800c3569594231018b2ab9d4db458c9bc5915dc8e",
+    "actual_python": "3.13.7",
+    "actual_exit_code": 0,
+    "code_text_inspection_only_no_Lua_or_solver_executed": true,
+    "original_report_is_recorded_evidence_not_offline_source_rehash": true
+  },
+  "limits": [
+    "No exact target binary, build flags or input embedded in original output recovered.",
+    "Public input/source availability is positively credited; directory inventory is not an exhaustive absence claim for other deposits.",
+    "Self-collisions can conserve moments while affecting distribution shape; no direct anomalous-drag subtraction is justified.",
+    "Continuous source moment/energy identities do not certify DG quadrature, aliasing or actual power.",
+    "Zeta ambiguity is conditional on the unnamed Gaussian convention for the plasma dispersion function."
+  ],
+  "source_collection_modified": false,
+  "simulation_run": false,
+  "author_contact": false,
+  "queue_or_catalogue_changed": false,
+  "external_publication_performed": false
+}

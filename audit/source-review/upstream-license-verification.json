@@ -1,0 +1,25 @@
+{
+  "input_repository": {
+    "repository": "gkeyllorg/gkyl-paper-inp",
+    "commit": "7209ddbfe432b1826df3aa1f7f9fa7f32053a3af",
+    "standalone_root_license_file_present": false,
+    "grant_location": "Root README.md, MIT LICENSE section; preceding sentence explicitly applies to code and data.",
+    "root_README_sha256": "a74cd5a3a6734e71860e6e1e2d05ffbda9804d5542c0b990ae4bb757f70b1027",
+    "root_README_URL": "https://raw.githubusercontent.com/gkeyllorg/gkyl-paper-inp/7209ddbfe432b1826df3aa1f7f9fa7f32053a3af/README.md",
+    "license": "MIT",
+    "copyright": "Copyright 2012-2020 Ammar Hakim and the Gkeyll Team",
+    "extracted_notice_sha256": "818019914811a5f487ae8d4c87a10f40093df3e912d5cc6637ae53a05db16df3",
+    "copied_notice_exact_substring_of_upstream_root_README": true
+  },
+  "historical_solver": {
+    "repository": "liangwang0734/gkyl",
+    "commit": "69f26286dcc7640024804ba6b1c5ea16d409f759",
+    "standalone_root_license_file_present": false,
+    "grant_location": "Root README.md, License section",
+    "root_README_sha256": "9930de67fc91d8dc84e6d02ae980e37a6b695c1e0c52d047e737a0babb0ac075",
+    "root_README_URL": "https://raw.githubusercontent.com/liangwang0734/gkyl/69f26286dcc7640024804ba6b1c5ea16d409f759/README.md",
+    "terms_summary": "Specified institutional research use is permitted; commercial users are asked to contact the project. General forking is discussed. No MIT grant asserted.",
+    "complete_solver_modules_bundled": false
+  },
+  "our_license_scope": "Upstream input files retain their original MIT copyright/notice and are separate from Taylor Kalin original audit code/text. No source PDF or complete historical solver module is bundled."
+}

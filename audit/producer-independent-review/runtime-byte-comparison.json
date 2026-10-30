@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "Comparison of existing3.12.14 producer output and existing3.13.7 --no-plots output, without a rerun.",
+  "files": [
+    {
+      "filename": "consistency-controls.json",
+      "bytes": 20862,
+      "sha256": "9d36309bf05c6c007193a678b6f9ee009529f5c3ae37b6c96cbe3cba323c683d",
+      "byte_identical": true
+    },
+    {
+      "filename": "growth-controls.csv",
+      "bytes": 691,
+      "sha256": "13d5a22f0fcdd83397fb29926f4fcb51d016d4e0513a8d97404b8882ac5565d1",
+      "byte_identical": true
+    },
+    {
+      "filename": "threshold-controls.csv",
+      "bytes": 1695,
+      "sha256": "bf37797758e38621b173b4b70aca71220228c5b9c3dbaea1cbc4b0c88611fedd",
+      "byte_identical": true
+    }
+  ]
+}
