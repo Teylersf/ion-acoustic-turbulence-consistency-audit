@@ -1,0 +1,35 @@
+{
+  "study": "ion-acoustic-turbulence-consistency-audit",
+  "checked_at_utc": "2026-10-30T00:37:08.908062+00:00",
+  "http_status": 200,
+  "validation_ok": true,
+  "problems": [],
+  "warnings": [],
+  "figures": {
+    "total": 2,
+    "uploaded": 0,
+    "external": 2,
+    "inline": 0,
+    "other": 0
+  },
+  "allowance": {
+    "per_day": {
+      "limit": 5,
+      "used": 5,
+      "remaining": 0,
+      "resets_in_seconds": 54490
+    },
+    "in_flight": {
+      "limit": 5,
+      "used": 0,
+      "remaining": 5
+    },
+    "remaining": 0,
+    "resets_in_seconds": 54490,
+    "binding": "day"
+  },
+  "estimated_allowance_reset_utc": "2026-10-30T15:45:18.908062+00:00",
+  "initial_paper_POSTs": 0,
+  "paper_id": null,
+  "scope": "Nonstoring validation passed; ordinary daily allowance exhausted. No initial paper POST or acceptance."
+}

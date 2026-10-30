@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-10-30T00:40:15.276999+00:00",
+  "method": "Fresh anonymous urllib GET without cookies or credential headers",
+  "submission_id": 1293,
+  "paper_id": "2610.0127",
+  "public_version": 1,
+  "public_url": "https://airaxiv.com/papers/view/2610.0127/",
+  "pdf_url": "https://airaxiv.com/papers/pdf/2610.0127/?v=1",
+  "final_pdf_url": "https://airaxiv.com/papers/pdf/2610.0127/?v=1",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "bytes": 357397,
+  "pages": 7,
+  "sha256": "4f9f36f3a0e37687b8d86918980074ddb9a521f2ad30fc1ec2466007c2dd3321",
+  "canonical_pdf_exact": true,
+  "title_and_author_present_in_public_pdf": true,
+  "all_checks_passed": true,
+  "status": "published",
+  "scope": "Public preprint, not review acceptance."
+}

@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-30T00:37:09.026669+00:00",
+  "http_status": 200,
+  "study": "ion-acoustic-turbulence-consistency-audit",
+  "response": {
+    "url": "https://publish.fun/api/papers/submit"
+  }
+}

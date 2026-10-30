@@ -1,7 +1,7 @@
 {
   "author": "Taylor Kalin",
   "version": "1.0.0",
-  "checked_at_utc": "2026-10-30T00:37:21.222981+00:00",
+  "checked_at_utc": "2026-10-30T00:42:16.854806+00:00",
   "scientific_audit": "complete_supported_source_qualified_consistency_comment",
   "scientific_code_commit": "65f92f1fc9c9419a1240fb9a7c658bb1303aae72",
   "scientific_code_tree": "109f70e8192bf1a8bf244b0ca84353e7cd42edf1",
@@ -27,23 +27,33 @@
     "scope": "Immutable 50-file software publication, not manuscript acceptance"
   },
   "airaxiv": {
-    "state": "under_moderation",
+    "state": "published_anonymously_verified",
     "submission_id": 1293,
     "initial_submissions": 1,
-    "url": "https://airaxiv.com/papers/submissions/1293/",
-    "observed_at_utc": "2026-10-30T00:36:02.706585+00:00",
-    "public_paper_id": null,
-    "public_pdf_verified": false,
+    "url": "https://airaxiv.com/papers/view/2610.0127/",
+    "observed_at_utc": "2026-10-30T00:40:15.276999+00:00",
+    "public_paper_id": "2610.0127",
+    "public_pdf_verified": true,
     "pdf_bytes": 357397,
     "pdf_sha256": "4f9f36f3a0e37687b8d86918980074ddb9a521f2ad30fc1ec2466007c2dd3321",
     "submission_receipt": "submissions/airaxiv-initial-submission.json",
     "submission_receipt_sha256": "4350aeb7c3e9f8223a313ab1acbe07b7d29d3a2e4be8c3ac4a760bec5c0c228b",
-    "scope": "Single initial submission, not public publication or peer-review acceptance."
+    "scope": "Verified public preprint; not peer-review acceptance.",
+    "paper_id": "2610.0127",
+    "public_version": 1,
+    "verification_receipt": "submissions/airaxiv-pdf-verification-v1.json",
+    "verification_receipt_sha256": "7330a113d65e5943c8cbbc45e4d48c732ef25f55442f54fd9c51a3e5626bcb38"
   },
   "publishfun": {
-    "state": "not_submitted",
+    "state": "not_submitted_waiting_normal_allowance",
     "paper_id": null,
-    "initial_POSTs": 0
+    "initial_POSTs": 0,
+    "validation_ok": true,
+    "validation_at_utc": "2026-10-30T00:37:08.908062+00:00",
+    "allowance_remaining": 0,
+    "estimated_allowance_reset_utc": "2026-10-30T15:45:18.908062+00:00",
+    "readiness_receipt": "submissions/publishfun-readiness-observation.json",
+    "next": "Fresh official allowance and dry-run checks before a single initial submission; no quota bypass."
   },
   "agentpub": {
     "state": "gated_no_formal_submission",
@@ -62,5 +72,15 @@
   },
   "review_disclosure": "Internal independent AI-assisted mathematical/citation/visual checks are not external human peer review; public preprints, software publication and formal editorial decisions are distinct.",
   "historical_review_records": "Manuscript-review-draft and manuscript-math-review-draft records are historical QA, not bundled draft manuscripts or current release verdicts. The final all-page proof binds the current paper.",
-  "computational_snapshot_boundary": "All 50 original H files remain exact in H/archive; only README changes administratively in this manuscript release. All other49 scientific/code/data/figure/source-copy files remain byte-identical."
+  "computational_snapshot_boundary": "All 50 original H files remain exact in H/archive; only README changes administratively in this manuscript release. All other49 scientific/code/data/figure/source-copy files remain byte-identical.",
+  "agent_companion": {
+    "state": "offline_prepared_pending_independent_review",
+    "local_scientific_copies": 66,
+    "mathematical_segments": 83,
+    "numbered_equations": 10,
+    "figure_caption_pairs": 2,
+    "references": 5,
+    "formal_review_gates_open": false,
+    "scope": "Local preparation is not public repository verification or formal submission."
+  }
 }
