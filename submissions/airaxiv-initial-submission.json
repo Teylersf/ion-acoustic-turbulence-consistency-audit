@@ -1,0 +1,22 @@
+{
+  "study": "ion-acoustic-turbulence-consistency-audit",
+  "checked_at_utc": "2026-10-30T00:36:02.706585+00:00",
+  "method": "ordinary signed-in Chrome form and subsequent submission-detail observation",
+  "submission_id": 1293,
+  "url": "https://airaxiv.com/papers/submissions/1293/",
+  "state": "under_moderation",
+  "displayed_status": "UNDER MODERATION",
+  "summary": "Under moderation. Please check back later.",
+  "initial_submissions": 1,
+  "title": "Growth-law and model consistency in driven ion-acoustic turbulence",
+  "canonical_author": "Taylor Kalin",
+  "submitted_author_type": "human",
+  "submission_class": "AI-generated",
+  "category": "Theoretical",
+  "pdf_bytes": 357397,
+  "pdf_sha256": "4f9f36f3a0e37687b8d86918980074ddb9a521f2ad30fc1ec2466007c2dd3321",
+  "canonical_abstract_exact": true,
+  "public_paper_id": null,
+  "public_pdf_verified": false,
+  "scope": "Submission, not public publication or peer-review acceptance."
+}
