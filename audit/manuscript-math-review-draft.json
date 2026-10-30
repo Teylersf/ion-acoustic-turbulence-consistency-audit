@@ -1,0 +1,116 @@
+{
+  "status": "passed_as_draft",
+  "scope": "Complete manuscript and all seven rendered draft PDF pages, all ten numbered equations, numerical claims, benign interpretations and limitations; independent of the source/version and layout reviewers. No manuscript edits/publication.",
+  "draft_inputs": {
+    "fully_reviewed_manuscript_sha256": "5edb0f1dfb8dcc87c8e5c186e7ade66e504d5f0dd9511e62f37da54845c770e8",
+    "current_manuscript_sha256": "621d4bd3f4baf87d169b63dcd3f788f9f37b09b783d866707f659008b7d6fdf6",
+    "current_manuscript_bytes": 18685,
+    "draft_PDF_sha256": "67a439867a3239316388fc10e5e90faf40aae058e66fbb4372f535372b2d87c2",
+    "draft_PDF_bytes": 353824,
+    "draft_PDF_pages": 7,
+    "PDF_is_older_reviewed_layout": true,
+    "current_MD_delta": "Exactly one reference-temperature sentence; deleting its exact bytes restores the fully reviewed MD SHA. Added sentence independently read and accepted."
+  },
+  "evidence_bindings": {
+    "audit/independent-math/integration-receipt.json": "567ce418c7fbeb71ce8fdebcfede44bd051ce6fa3e7b2ff106bed75835d446e0",
+    "audit/producer-independent-review.json": "18caaa494f3bdae3229adbba43a119bc5e70dc80ab31e30c7a5f25dadf30e9df"
+  },
+  "source_basis": {
+    "complete_VOR_pages_read": 39,
+    "complete_erratum_pages_read": 1,
+    "critical_v2_TeX_checked": true,
+    "Main_lua_read": true,
+    "declared_source_and_Poisson_branch_read": true,
+    "exact_executed_binary_or_postprocessing_recovered": false
+  },
+  "equations": [
+    {
+      "equations": [
+        1,
+        2
+      ],
+      "status": "passed",
+      "reason": "Correct integration/anchor of dlogW/dt=2at. The adopted instantaneous rate is not confused with a full nonautonomous Vlasov solution."
+    },
+    {
+      "equations": [
+        3,
+        4
+      ],
+      "status": "passed",
+      "reason": "Field-unit reduction and principal Lambert-W solution are correct. E11 1/4 is retained; literal E2 propagation is separated."
+    },
+    {
+      "equations": [
+        5
+      ],
+      "status": "passed",
+      "reason": "Species acceleration/current slope correct; actual opposite charges/masses exclude an assumed implemented force error."
+    },
+    {
+      "equations": [
+        6
+      ],
+      "status": "passed",
+      "reason": "Exact imaginary-factor cancellation and cold-pole diagnosis are correctly limited to printed algebra."
+    },
+    {
+      "equations": [
+        7
+      ],
+      "status": "passed",
+      "reason": "Inverse-beta Gaussian formula is correct at a common reference temperature. Newly added reference-temperature sentence resolves the review clarity advisory."
+    },
+    {
+      "equations": [
+        8
+      ],
+      "status": "passed",
+      "reason": "Variance-one Z definition rescues the thermal sqrt(2) convention; no forced missing factor or double population count."
+    },
+    {
+      "equations": [
+        9,
+        10
+      ],
+      "status": "passed",
+      "reason": "Self-adjoint periodic Poisson work has no extra half; .02 follows matched initial seed/source. Actual discrete run power is explicitly unmeasured."
+    }
+  ],
+  "numerical_values": {
+    "E11_root_6_8183875047e_minus5": "passed",
+    "E12_LHS_12_19597129_RHS_3_52085739": "passed",
+    "literal_E2_root_2_1910589348e_minus4": "passed",
+    "width_multiplier_1_86116": "passed",
+    "collision_exposures_0_5_and_0_1_at_5000": "passed",
+    "initial_source_rate_0_02": "passed conditional continuum identity",
+    "velocity_resolution_0_0208_0_0417": "passed as degree-count convention only",
+    "eleven_ENL_and_five_Wsat_values": "passed",
+    "28_6_over_sqrt2_rounds_20_2": "passed",
+    "empirical_duration_2025": "passed",
+    "producer_counts_24_20_4_5_4_3_7": "match current producer/QAreceipts",
+    "three_cross_runtime_numeric_files": "byte-identical in existing Python3.12/3.13 outputs"
+  },
+  "interpretation_checks": [
+    "Arbitrary prefactor fixes anchor only; amplitude interpretation cannot rescue doubled energy coefficient.",
+    "E11 retained as a positive bridge; trapping/noise conventions prevent a universal revised threshold or rejection of observed M25E1/M25E2 regimes.",
+    "Printed force/dielectric errors not presumed implemented; separate benchmarks credited.",
+    "Exact Z convention and common total-density weights exclude unsupported extra allegations.",
+    "Self-collision exposure is not electron-ion drag or a demonstrated heating effect.",
+    "Central moments remain defined for non-Maxwellians; intM2Thermal defeats presumed raw-moment misuse.",
+    "Degree-count resolution reconciliation is not a uniform nodal-spacing or convergence proof.",
+    "Source-work contribution is conditional, initial and continuum, not measured power or a cause of reported instability."
+  ],
+  "figures": {
+    "math_and_full_captions": "passed",
+    "synthetic_or_conditional_scope_explicit": true,
+    "known_draft_delta": "PDF Figure1 still has prior legend placement; final rebuild should use already-reviewed updated PNG."
+  },
+  "pending_release_items": [
+    "Replace explicit draft availability/ref5 with verified H and published software DOI.",
+    "Rebuild using current PNGs and obtain final PDF QA."
+  ],
+  "resolved_minor_advisory": "Eq7 now explicitly uses a common reference temperature, Te=Te0 in the initial field units.",
+  "actionable_scientific_blockers": [],
+  "limit": "Internal mathematical/source audit; not external human peer review or independent validation of source nonlinear simulations."
+}

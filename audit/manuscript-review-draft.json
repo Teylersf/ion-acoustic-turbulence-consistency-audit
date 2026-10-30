@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "checked_at_UTC": "2026-10-30T00:22:07.369071+00:00",
+  "review_type": "Independent AI-assisted internal full-manuscript and seven-page visual review; not external human peer review",
+  "science_checks_passed": true,
+  "all_current_MD_claims_reviewed": true,
+  "manuscript": {
+    "path": "paper/manuscript.md",
+    "bytes": 18685,
+    "sha256": "621d4bd3f4baf87d169b63dcd3f788f9f37b09b783d866707f659008b7d6fdf6"
+  },
+  "historical_draft_PDF": {
+    "path": "paper/main.pdf",
+    "bytes": 353824,
+    "sha256": "67a439867a3239316388fc10e5e90faf40aae058e66fbb4372f535372b2d87c2"
+  },
+  "historical_PDF_pages": 7,
+  "all_PDF_pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "render_bindings": [
+    {
+      "path": "draft-render/page-1.png",
+      "bytes": 350845,
+      "sha256": "7331143a0efd3ffe8e0e61f0b336ffdc0fc3be18619d5ab1407d143851f9734e",
+      "page": 1,
+      "visually_inspected": true
+    },
+    {
+      "path": "draft-render/page-2.png",
+      "bytes": 328630,
+      "sha256": "c0f0fb42f0dd7e84b49e7106c036c98380f51733b19889dee49d83784eb5c721",
+      "page": 2,
+      "visually_inspected": true
+    },
+    {
+      "path": "draft-render/page-3.png",
+      "bytes": 288006,
+      "sha256": "3f327cbd7ee522394c64a3e53a7aa871b638858948e27259c2e256d1de3755ac",
+      "page": 3,
+      "visually_inspected": true
+    },
+    {
+      "path": "draft-render/page-4.png",
+      "bytes": 322977,
+      "sha256": "63c3817f92d7f5d9193ba3e9a08e50be883ed5bbbea4094c3f1a4856bfb8a8cd",
+      "page": 4,
+      "visually_inspected": true
+    },
+    {
+      "path": "draft-render/page-5.png",
+      "bytes": 363958,
+      "sha256": "2a234355a6ac4d321aedd8b1caaa4c152f05e33cd60578bfabd1e74c85364c33",
+      "page": 5,
+      "visually_inspected": true
+    },
+    {
+      "path": "draft-render/page-6.png",
+      "bytes": 115689,
+      "sha256": "a78e6e83d5c1da36c68a8b7ce5bff0d65da1d3aa1eadc9da99782470a1685b9e",
+      "page": 6,
+      "visually_inspected": true
+    },
+    {
+      "path": "draft-render/page-7.png",
+      "bytes": 186575,
+      "sha256": "23196d3775224c73cf9e2b7e455818b3de1ef60522fa3a8d836558d460e1c22f",
+      "page": 7,
+      "visually_inspected": true
+    }
+  ],
+  "numbered_displays_checked": 10,
+  "figures_checked": 2,
+  "references_checked": 5,
+  "PDF_metadata": {
+    "title": "Growth-law and model consistency in driven ion-acoustic turbulence",
+    "author": "Taylor Kalin",
+    "passed": true
+  },
+  "source_and_citation_checks": {
+    "original_and_erratum_primary_metadata_match": true,
+    "acknowledgement_erratum_not_presented_as_new_scientific_discovery": true,
+    "actual_13file_input_deposit_and_source_revision_credited": true,
+    "inputs_MIT_notice_and_historical_solver_terms_distinguished": true,
+    "collective_complete_VOR_reading_supported_by_separate_receipt": true,
+    "Gaussian_dispersion_convention_counterargument_retained": true,
+    "no_implementation_or_numerical_curve_refutation_claim": true,
+    "no_simulation_or_measured_source_power_claim": true,
+    "retained_benchmarks_DG_spacing_and_positive_arithmetic_controls_credited": true
+  },
+  "mathematical_review": {
+    "instantaneous_growth_integration_and_anchor": "passed",
+    "E11_retained_prefactor_and_literal_threshold_scope": "passed",
+    "Lambert_principal_branch_formula_and_width_sensitivity": "passed",
+    "species_force_and_declared_code_positive_control": "passed",
+    "A1_to_A2_cancellation_and_cold_pole_scope": "passed",
+    "beta_reduction_with_common_reference_temperature_in_current_MD": "passed",
+    "alternative_Z_N_convention_and_weights": "passed",
+    "self_collisions_and_fixed_source_Poisson_semantics": "passed",
+    "zero_global_particle_moments_vs_conditional_Poisson_field_work": "passed",
+    "Main_initial_conditional_source_power_factor_and_no_actual_power_claim": "passed"
+  },
+  "known_draft_changes": [
+    {
+      "location": "PDF page3 Figure1",
+      "status": "known_layout_fix_prepared_but_not_embedded",
+      "description": "Historical figure legend overlaps the reported-threshold cross. Current source PNG was separately viewed; moved legend leaves cross visible. Final PDF must embed updated figure."
+    },
+    {
+      "location": "Before Eq7, current MD versus historical PDF pages3-4",
+      "status": "known_text_delta_not_yet_recompiled",
+      "description": "Common-reference-temperature qualification is in the current MD but absent from historical draft PDF. No additional science edit requested; rebuild must use current MD."
+    },
+    {
+      "location": "Availability and Reference5",
+      "status": "explicit_draft_placeholders",
+      "description": "Verified computational commit and published software DOI must be inserted before final release."
+    }
+  ],
+  "current_figure_source": {
+    "path": "figures/growth-and-threshold-controls.png",
+    "bytes": 149484,
+    "sha256": "cf7ed7964839c1f6a3aa67755d8ea2b56b0d0d172961da6636aabc6229f9f79c"
+  },
+  "current_figure_source_visually_inspected": true,
+  "supporting_records": [
+    {
+      "path": "source-provenance.json",
+      "bytes": 21367,
+      "sha256": "2c81eca593d329ea4fb5d9c5190b1d14ed1da844fd102bf6968cc0fde256642a"
+    },
+    {
+      "path": "SOURCE_CONCORDANCE.md",
+      "bytes": 8120,
+      "sha256": "3a9883ab49436688bad54b1e66ff07dd78868f5b5422c977b5a2e3bcfdb43480"
+    },
+    {
+      "path": "audit/source-review/available-input-and-solver-semantics.md",
+      "bytes": 7886,
+      "sha256": "61fa87b596205f8b3c9248b0911d8001cb7826b7e643ad1530385670d249c6ae"
+    },
+    {
+      "path": "audit/source-review/integration-checks.json",
+      "bytes": 680,
+      "sha256": "eb27d461b2086f968a90c664ba8006a23d6ad9de0b0c6a6c3fa47d211efe4b80"
+    },
+    {
+      "path": "audit/source-review/integration-portability.json",
+      "bytes": 747,
+      "sha256": "d52fa9c01b3717c7afc41223fd8ace222aa13ba6bc02c52838da05bf36b28105"
+    },
+    {
+      "path": "audit/independent-math/review-receipt.json",
+      "bytes": 2150,
+      "sha256": "a2599654bb78b34a957809c44112f2034b98d51d4fbe5d6ba6a9b606baf200c5"
+    }
+  ],
+  "review_note": {
+    "path": "audit/manuscript-review-draft.md",
+    "bytes": 4147,
+    "sha256": "873c2b57dcd87dbfcf882187445780bd9f005303be416e1f159237d3ad67b499"
+  },
+  "new_requested_science_edits": [],
+  "remaining_material_science_concerns": [],
+  "MD_and_historical_PDF_certified_synchronized": false,
+  "release_ready": false,
+  "final_rebuild_and_full_page_review_required": true,
+  "actions": {
+    "manuscript_or_PDF_edits": false,
+    "producer_data_or_figure_edits": false,
+    "Git_or_publication_mutations": false,
+    "new_network_requests_during_manuscript_review": false
+  }
+}

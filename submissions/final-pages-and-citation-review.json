@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "checked_at_UTC": "2026-10-30T00:31:56.341981+00:00",
+  "review_type": "Independent internal AI-assisted full manuscript/citation and all-final-page review; not external human peer review",
+  "all_checks_passed": true,
+  "all_final_pages_visually_passed": true,
+  "manuscript_sha256": "86c0d724b044c98c9dea07be458905702c49e101fd60b1289b39eb9b68d3cc4a",
+  "pdf_sha256": "4f9f36f3a0e37687b8d86918980074ddb9a521f2ad30fc1ec2466007c2dd3321",
+  "pages": 7,
+  "manuscript": {
+    "path": "paper/manuscript.md",
+    "bytes": 19241,
+    "sha256": "86c0d724b044c98c9dea07be458905702c49e101fd60b1289b39eb9b68d3cc4a"
+  },
+  "PDF": {
+    "path": "paper/main.pdf",
+    "bytes": 357397,
+    "sha256": "4f9f36f3a0e37687b8d86918980074ddb9a521f2ad30fc1ec2466007c2dd3321"
+  },
+  "delivery_PDF": {
+    "path": "output/pdf/ion-acoustic-turbulence-consistency-audit.pdf",
+    "bytes": 357397,
+    "sha256": "4f9f36f3a0e37687b8d86918980074ddb9a521f2ad30fc1ec2466007c2dd3321"
+  },
+  "paper_and_delivery_PDFs_byte_identical": true,
+  "all_pages_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "page_reviews": [
+    {
+      "path": "final-render/page-1.png",
+      "bytes": 350845,
+      "sha256": "7331143a0efd3ffe8e0e61f0b336ffdc0fc3be18619d5ab1407d143851f9734e",
+      "page": 1,
+      "visually_checked": true,
+      "passed": true
+    },
+    {
+      "path": "final-render/page-2.png",
+      "bytes": 328630,
+      "sha256": "c0f0fb42f0dd7e84b49e7106c036c98380f51733b19889dee49d83784eb5c721",
+      "page": 2,
+      "visually_checked": true,
+      "passed": true
+    },
+    {
+      "path": "final-render/page-3.png",
+      "bytes": 299733,
+      "sha256": "ee5909e0a7d84e3807cd438eb8e5f3592d0ac87630b1830b0641811f98ab41b8",
+      "page": 3,
+      "visually_checked": true,
+      "passed": true
+    },
+    {
+      "path": "final-render/page-4.png",
+      "bytes": 322977,
+      "sha256": "63c3817f92d7f5d9193ba3e9a08e50be883ed5bbbea4094c3f1a4856bfb8a8cd",
+      "page": 4,
+      "visually_checked": true,
+      "passed": true
+    },
+    {
+      "path": "final-render/page-5.png",
+      "bytes": 363958,
+      "sha256": "2a234355a6ac4d321aedd8b1caaa4c152f05e33cd60578bfabd1e74c85364c33",
+      "page": 5,
+      "visually_checked": true,
+      "passed": true
+    },
+    {
+      "path": "final-render/page-6.png",
+      "bytes": 182758,
+      "sha256": "307bc5867b99f97d0a118666d396993a3ad6550698ea90d13c024aa99922bcef",
+      "page": 6,
+      "visually_checked": true,
+      "passed": true
+    },
+    {
+      "path": "final-render/page-7.png",
+      "bytes": 198116,
+      "sha256": "193a8d1fa3b8d75cb6d47353b5172aa986287c0aa2f7db69f8e9140f6701d3c8",
+      "page": 7,
+      "visually_checked": true,
+      "passed": true
+    }
+  ],
+  "complete_final_manuscript_read": true,
+  "numbered_displays_verified": 10,
+  "figures_and_captions_verified": 2,
+  "references_verified": 5,
+  "PDF_metadata": {
+    "title": "Growth-law and model consistency in driven ion-acoustic turbulence",
+    "author": "Taylor Kalin",
+    "passed": true
+  },
+  "source_bounds": {
+    "current39page_VOR_and_complete_v2_and_erratum_collectively_read": true,
+    "existing_erratum_acknowledgement_only_and_already_incorporated": true,
+    "real_inputs_and_solver_source_availability_credited": true,
+    "no_target_executable_or_original_raw_outputs_claimed_recovered": true,
+    "no_numerical_curve_or_shutdown_refutation_claim": true,
+    "declared_code_semantics_distinguished_from_executed_binary_identity": true,
+    "alternative_Z_normalization_valid_counterargument_retained": true,
+    "conditional_source_energy_not_measured_run_power": true
+  },
+  "mathematics": {
+    "all_ten_equations_pass": true,
+    "integrated_growth_rate_and_anchor": true,
+    "E11_prefactor_retained_after_correcting_E2": true,
+    "literal_threshold_Lambert_formula_and_quoted_residual": true,
+    "width_convention_and_approximate_physical_threshold_limit_retained": true,
+    "q_over_m_display_vs_correct_declared_solver_distinction": true,
+    "imaginary_factor_reduction_and_cold_pole_scope": true,
+    "beta_formula_common_reference_temperature_explicit_and_visible": true,
+    "thermal_dispersion_rescue_and_weight_convention": true,
+    "self_collision_and_frozen_source_Poisson_path": true,
+    "source_particle_moments_vs_Poisson_field_work_identity": true,
+    "positive_density_and_conditional_point02_initial_source_coefficient": true,
+    "published_normalization_saturation_duration_DG_controls_credited": true
+  },
+  "final_changed_items": {
+    "Figure1_cross_visible_after_legend_move": true,
+    "temperature_reference_sentence_now_typeset_before_Eq7": true,
+    "availability_and_Reference5_have_verified_software_identifiers": true,
+    "no_draft_archive_placeholders": true
+  },
+  "reference_checks": [
+    {
+      "number": 1,
+      "DOI": "10.1017/S0022377824000060",
+      "passed": true,
+      "basis": "Primary registry/publisher metadata and complete source reading records."
+    },
+    {
+      "number": 2,
+      "DOI": "10.1017/S0022377824000291",
+      "passed": true,
+      "basis": "Complete official one-page correction and registry linkage; scope acknowledgement only."
+    },
+    {
+      "number": 3,
+      "repository": "gkeyllorg/gkyl-paper-inp",
+      "commit": "7209ddbfe432b1826df3aa1f7f9fa7f32053a3af",
+      "passed": true,
+      "basis": "Thirteen original MIT input files independently checked against Git blobs."
+    },
+    {
+      "number": 4,
+      "repository": "liangwang0734/gkyl",
+      "commit": "69f26286dcc7640024804ba6b1c5ea16d409f759",
+      "passed": true,
+      "basis": "README short pin resolved and selected force/source/field modules inspected; no solver-code redistribution."
+    },
+    {
+      "number": 5,
+      "DOI": "10.5281/zenodo.23786452",
+      "passed": true,
+      "basis": "Published software title, author, version, commit and 50-file archive match independently read successful anonymous Zenodo/DataCite verification receipt and locally rechecked archive member hashes."
+    }
+  ],
+  "software_archive": {
+    "DOI": "10.5281/zenodo.23786452",
+    "snapshot_commit": "65f92f1fc9c9419a1240fb9a7c658bb1303aae72",
+    "tested_tree": "109f70e8192bf1a8bf244b0ca84353e7cd42edf1",
+    "tree_not_mislabeled_commit": true,
+    "files": 50,
+    "bytes": 392029,
+    "sha256": "b1d6cb3074bfa050a3d66ced16685bd1991f7a867b5b1ad5e4214487f9c02c4a",
+    "all50_local_archive_members_rechecked_against_anonymous_verification_receipt": true,
+    "archive_excludes_paper_PDFs_and_historical_solver_modules": true,
+    "upstream_input_MIT_scope_preserved": true,
+    "software_DOI_not_misrepresented_as_manuscript_acceptance": true,
+    "remote_metadata_and_download_proof_read_from_separate_independent_receipt": true,
+    "new_network_calls_in_this_review": false
+  },
+  "supporting_receipts": [
+    {
+      "path": "submissions/zenodo-code-v1.0.0.json",
+      "bytes": 17186,
+      "sha256": "03c216a9f2481f142462f17d2043a823a557457e889be09bfcd4fa7e53465418"
+    },
+    {
+      "path": "source-provenance.json",
+      "bytes": 21367,
+      "sha256": "2c81eca593d329ea4fb5d9c5190b1d14ed1da844fd102bf6968cc0fde256642a"
+    },
+    {
+      "path": "SOURCE_CONCORDANCE.md",
+      "bytes": 8120,
+      "sha256": "3a9883ab49436688bad54b1e66ff07dd78868f5b5422c977b5a2e3bcfdb43480"
+    },
+    {
+      "path": "audit/source-review/integration-portability.json",
+      "bytes": 747,
+      "sha256": "d52fa9c01b3717c7afc41223fd8ace222aa13ba6bc02c52838da05bf36b28105"
+    },
+    {
+      "path": "audit/independent-math/review-receipt.json",
+      "bytes": 2150,
+      "sha256": "a2599654bb78b34a957809c44112f2034b98d51d4fbe5d6ba6a9b606baf200c5"
+    },
+    {
+      "path": "audit/manuscript-review-draft.json",
+      "bytes": 6696,
+      "sha256": "f668fa02fc5c482d5c734eea9dcd3992e701114e2c9b8f4655cec1ecd3fd7aa2"
+    }
+  ],
+  "material_concerns": [],
+  "requested_edits": [],
+  "actions": {
+    "paper_or_PDF_edited": false,
+    "producer_or_data_or_figures_edited": false,
+    "network_or_API_mutations": false,
+    "Git_or_publication_mutations": false
+  }
+}

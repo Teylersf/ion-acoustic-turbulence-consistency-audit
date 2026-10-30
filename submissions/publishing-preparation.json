@@ -1,0 +1,28 @@
+{
+  "study": "ion-acoustic-turbulence-consistency-audit",
+  "scope": "Offline Publish.fun preparation only; assets are immutable GitHub URLs, no upload or API call.",
+  "final_pin_file_sha256": "87bc1ec85f8886de0e4d4b091bf4cfe5ecd8b0b51f59e40a3c69dca848a2dba2",
+  "client_sha256": "e6b58af1886cd11c46205cd0894e77dde64e78d7dff89221522fc3458062d9a3",
+  "canonical_manuscript_sha256": "86c0d724b044c98c9dea07be458905702c49e101fd60b1289b39eb9b68d3cc4a",
+  "canonical_pdf_sha256": "4f9f36f3a0e37687b8d86918980074ddb9a521f2ad30fc1ec2466007c2dd3321",
+  "scientific_code_commit": "65f92f1fc9c9419a1240fb9a7c658bb1303aae72",
+  "code_doi": "10.5281/zenodo.23786452",
+  "metadata_sha256": "164e62704d30193ee35d98313442bcd8e75bdfe53b3ee38d1980ae10f2c9d15a",
+  "prepared_manuscript_sha256": "c9952197a51d51f5538b194046fb67789ba318f67c55e6d67b0182afc733dc1a",
+  "figure_bindings": [
+    {
+      "canonical_route": "../figures/growth-and-threshold-controls.png",
+      "path": "figures/growth-and-threshold-controls.png",
+      "sha256": "cf7ed7964839c1f6a3aa67755d8ea2b56b0d0d172961da6636aabc6229f9f79c",
+      "public_url": "https://raw.githubusercontent.com/Teylersf/ion-acoustic-turbulence-consistency-audit/65f92f1fc9c9419a1240fb9a7c658bb1303aae72/figures/growth-and-threshold-controls.png"
+    },
+    {
+      "canonical_route": "../figures/normalization-and-configuration-controls.png",
+      "path": "figures/normalization-and-configuration-controls.png",
+      "sha256": "9ff97c5a0d31ca1a0c17e9c38d6d3176de7cb7dbe967a732f94db695f9c69300",
+      "public_url": "https://raw.githubusercontent.com/Teylersf/ion-acoustic-turbulence-consistency-audit/65f92f1fc9c9419a1240fb9a7c658bb1303aae72/figures/normalization-and-configuration-controls.png"
+    }
+  ],
+  "network_calls": 0,
+  "formal_submission_performed": false
+}

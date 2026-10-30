@@ -2,6 +2,15 @@
 
 Author: **Taylor Kalin**. Website: https://taylorkalin.com . ORCID: https://orcid.org/0009-0003-9000-9315 .
 
+Version 1.0.0 public GitHub preprint:
+
+- [Complete seven-page PDF](https://github.com/Teylersf/ion-acoustic-turbulence-consistency-audit/releases/download/v1.0.0/main.pdf)
+- [Complete manuscript](paper/manuscript.md)
+- [Final all-page mathematical, citation and visual review](submissions/final-pages-and-citation-review.json)
+- [Current publication status](submissions/publication-status.json)
+- [Verified software DOI 10.5281/zenodo.23786452](https://doi.org/10.5281/zenodo.23786452)
+- [Anonymous software/archive/registry verification](submissions/zenodo-code-v1.0.0.json)
+
 This audit pairs Liu and colleagues' *A two-dimensional numerical study of ion-acoustic turbulence*, Journal of Plasma Physics 90, 965900101 (2024), https://doi.org/10.1017/S0022377824000060, with its acknowledgement-only erratum, https://doi.org/10.1017/S0022377824000291 . The supplied original is arXiv:2309.05563v2; the current publisher version was also obtained normally.
 
 The reproducible controls identify a nonintegrated time-dependent growth expression, a nonreproducible literal numerical threshold, and displayed force/dielectric/beta inconsistencies. They retain a valid alternative thermal convention and the article's positive normalization and benchmark evidence. Existing simulation curves are not shown wrong. The article's published erratum is credited as an existing editorial correction.
@@ -18,6 +27,6 @@ To regenerate the explanatory figures, install the versions in `requirements.txt
 
 `SOURCE_CONCORDANCE.md` and source-provenance records distinguish the 39-page v2, current journal article, acknowledgement-only erratum and institutional comparison. Third-party input copies retain their upstream MIT notice. Complete historical solver modules and source PDFs are excluded from the software archive. Original code is MIT licensed; original audit text and figures are CC BY 4.0; third-party rights remain separate.
 
-The manuscript and its eventual publication records are separate from the computational snapshot. A software archive or public preprint does not establish journal acceptance or external human peer review.
+The immutable computational snapshot contains 50 files at commit `65f92f1fc9c9419a1240fb9a7c658bb1303aae72`, distinct tree `109f70e8192bf1a8bf244b0ca84353e7cd42edf1`. The [software archive](https://doi.org/10.5281/zenodo.23786452) preserves those exact bytes and excludes the manuscript. This manuscript release adds paper/build and verification records; this README is the sole administrative change among the original computational files. The computational artifact manifest refers to the immutable snapshot, whose original README remains exact in H and the archive. A software archive or GitHub preprint does not establish journal acceptance or external human peer review. Later preprint-host and editorial states are tracked separately in the publication-status file.
 
 Taylor Kalin self-funds this work. AI systems assist source comparison, mathematical checks, programming and drafting. Internal independent checks are distinct from external human peer review.

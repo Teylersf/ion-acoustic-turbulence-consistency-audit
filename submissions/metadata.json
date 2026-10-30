@@ -1,0 +1,19 @@
+{
+  "title": "Growth-law and model consistency in driven ion-acoustic turbulence",
+  "abstract": "We audit the growth and normalization formulas in Liu and colleagues' two-dimensional study of current-driven ion-acoustic turbulence, using its complete arXiv v2, current journal article, published erratum and released inputs. Within the article's instantaneous-growth approximation, its time-dependent energy law doubles the integrated exponent. Its later trapping inequality instead agrees with the repaired integration, but the quoted numerical threshold does not solve that displayed inequality at the stated noise level. This discrepancy does not determine a universal physical threshold because order-one trapping-width conventions matter. We also identify displayed species-force, dielectric-reduction and beta-normalization inconsistencies while retaining an exact alternative thermal convention that rescues the stated Maxwellian susceptibility. The released Main input and declared historical solver specify weak self-collisions and a fixed ion source beyond the displayed collisionless equation. A positive-density continuum witness shows why a zero-mean source can do electrostatic work despite zero global particle-kinetic source moments. This is a configuration and budget clarification, not a measured source power or a reproduction of the reported simulations. The source's tabulated normalizations, duration estimate, benchmarks and stated limitations remain credited.",
+  "author": "Taylor Kalin",
+  "orcid": "0009-0003-9000-9315",
+  "version": "1.0.0",
+  "scientific_code_commit": "65f92f1fc9c9419a1240fb9a7c658bb1303aae72",
+  "code_doi": "10.5281/zenodo.23786452",
+  "repository": "https://github.com/Teylersf/ion-acoustic-turbulence-consistency-audit",
+  "agentpub_paper_type": "short_communication",
+  "keywords": [
+    "ion-acoustic turbulence",
+    "time-dependent growth",
+    "Vlasov-Poisson",
+    "plasma dielectric",
+    "source energy budget",
+    "reproducibility"
+  ]
+}

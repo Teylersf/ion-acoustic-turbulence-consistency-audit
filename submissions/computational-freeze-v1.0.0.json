@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-30T00:22:00.286835+00:00",
+  "status": "passed",
+  "scope": "Computational-only first commit/local archive; manuscript/build/PDF/submissions and full historical solver modules excluded. Anonymous public retrieval is a separate subsequent check.",
+  "commit": "65f92f1fc9c9419a1240fb9a7c658bb1303aae72",
+  "byte_verified_staged_tree": "109f70e8192bf1a8bf244b0ca84353e7cd42edf1",
+  "tree_is_not_commit": true,
+  "file_count": 50,
+  "manifest_members_excluding_self": 49,
+  "author": "Taylor Kalin <teylersf@gmail.com>",
+  "all_staged_blobs_equal_disk": true,
+  "staged_tree_archive_matches_all_blobs": true,
+  "commit_tree_equals_tested_tree": true,
+  "normalization_policy": "Repository .gitattributes and local .git/info/attributes use * -text; all raw bytes preserved.",
+  "all_25_source_manifest_entries_exact": true,
+  "all_13_upstream_input_copies_and_MIT_notice_preserved": true,
+  "full_historical_solver_modules_bundled": false,
+  "producer_QA": {
+    "path": "audit/producer-independent-review.json",
+    "sha256": "18caaa494f3bdae3229adbba43a119bc5e70dc80ab31e30c7a5f25dadf30e9df"
+  },
+  "administrative_changes_after_QA": [
+    {
+      "path": "README.md",
+      "QA_sha256": "c08aaf5eb5a672e70ee6bf728bb08c65d0f37089873ef97515e212c7edc62432",
+      "freeze_sha256": "8caea57b5f23d21130fc24053216e8b728456be4ca81d800db11aee890415583",
+      "purpose": "Administrative README expansion of source/reproducibility scope and separate optional verifier dependency; producer/data/figures remain unchanged."
+    }
+  ],
+  "added_administrative_files": [
+    "REPRODUCIBILITY.md",
+    "data/computational-artifact-manifest.json"
+  ],
+  "optional_independent_dependency": "mpmath==1.3.0; producer numerical path remains standard-library-only",
+  "upstream_whitespace_observation": "git diff --check noted an original blank EOF line in UPSTREAM-LICENSE-MIT.txt; exact upstream bytes are intentionally preserved.",
+  "no_new_scientific_execution_during_freeze": true,
+  "no_manuscript_release_or_tag_or_DOI_or_venue_submission_created": true,
+  "archive": {
+    "filename": "ion-acoustic-turbulence-consistency-audit-code-v1.0.0.zip",
+    "bytes": 392029,
+    "sha256": "b1d6cb3074bfa050a3d66ced16685bd1991f7a867b5b1ad5e4214487f9c02c4a",
+    "md5": "3e80b5c302c6a26cc911ce199e7e70fa",
+    "zip_comment": "65f92f1fc9c9419a1240fb9a7c658bb1303aae72"
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 83,
+      "sha256": "cecaba36a97bcc5ce6f69247f95dce5f8908716a4843f2873fd17d9ac00678d0"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 1733,
+      "sha256": "d6b9680fbacdefa47ea504b478e47426f032c8aa85a7b58ff72f668817c78e60"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3159,
+      "sha256": "8caea57b5f23d21130fc24053216e8b728456be4ca81d800db11aee890415583"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 3387,
+      "sha256": "d44dd348a7aafd17e7954f62610c913a76b0ccd771b2892c5391c0ef0539467b"
+    },
+    {
+      "path": "SOURCE_CONCORDANCE.md",
+      "bytes": 8120,
+      "sha256": "3a9883ab49436688bad54b1e66ff07dd78868f5b5422c977b5a2e3bcfdb43480"
+    },
+    {
+      "path": "audit/independent-math/REPORT.md",
+      "bytes": 17798,
+      "sha256": "22bb402005615949ddb35b77d9a8efd32e7e9ea7425b6d00d6aae3dcacd28ef6"
+    },
+    {
+      "path": "audit/independent-math/independent-math-checks.json",
+      "bytes": 31900,
+      "sha256": "91562045d39acc39d88ab2b55cc38ebb7bf4636d3a42d769ed7151fecdc6e457"
+    },
+    {
+      "path": "audit/independent-math/integration-receipt.json",
+      "bytes": 3077,
+      "sha256": "567ce418c7fbeb71ce8fdebcfede44bd051ce6fa3e7b2ff106bed75835d446e0"
+    },
+    {
+      "path": "audit/independent-math/review-receipt.json",
+      "bytes": 2150,
+      "sha256": "a2599654bb78b34a957809c44112f2034b98d51d4fbe5d6ba6a9b606baf200c5"
+    },
+    {
+      "path": "audit/independent-math/verify_iat_math.py",
+      "bytes": 16072,
+      "sha256": "858018139998885fad683261a4e8c12fb3a4e004b165b97451865c21dafdc620"
+    },
+    {
+      "path": "audit/producer-independent-review.json",
+      "bytes": 6104,
+      "sha256": "18caaa494f3bdae3229adbba43a119bc5e70dc80ab31e30c7a5f25dadf30e9df"
+    },
+    {
+      "path": "audit/producer-independent-review/checks.json",
+      "bytes": 1525,
+      "sha256": "17f710ff3dae4ec08a44978fb1cce1370363733cfe28b6013b606da922581632"
+    },
+    {
+      "path": "audit/producer-independent-review/runtime-byte-comparison.json",
+      "bytes": 730,
+      "sha256": "276bf724b11cb0311f888ae41ac0c8fe9c2e015489c6583c8d0eb2ac776b9ba0"
+    },
+    {
+      "path": "audit/producer-independent-review/verify_outputs.py",
+      "bytes": 7871,
+      "sha256": "2301f0bee27ba4e7f7108470ecf726efeddf1fe6bfef40481a6345da86c404dc"
+    },
+    {
+      "path": "audit/source-review/available-input-and-solver-semantics.md",
+      "bytes": 7886,
+      "sha256": "61fa87b596205f8b3c9248b0911d8001cb7826b7e643ad1530385670d249c6ae"
+    },
+    {
+      "path": "audit/source-review/deck-model-controls.json",
+      "bytes": 13767,
+      "sha256": "b6836cf9abc6484918e1903800c3569594231018b2ab9d4db458c9bc5915dc8e"
+    },
+    {
+      "path": "audit/source-review/institutional-page-correspondence.json",
+      "bytes": 6331,
+      "sha256": "308a4af9a25a451a8210bf64edc9a84bb8f3cf8b07b7f5834205f8d47d1b2a82"
+    },
+    {
+      "path": "audit/source-review/integration-checks.json",
+      "bytes": 680,
+      "sha256": "eb27d461b2086f968a90c664ba8006a23d6ad9de0b0c6a6c3fa47d211efe4b80"
+    },
+    {
+      "path": "audit/source-review/integration-manifest.json",
+      "bytes": 9178,
+      "sha256": "a2aa25b5066c879c031cb9841302ba06d690b884f4532192f73509cb666d1ab5"
+    },
+    {
+      "path": "audit/source-review/integration-portability.json",
+      "bytes": 747,
+      "sha256": "d52fa9c01b3717c7afc41223fd8ace222aa13ba6bc02c52838da05bf36b28105"
+    },
+    {
+      "path": "audit/source-review/public-input-deposit-verification.json",
+      "bytes": 5701,
+      "sha256": "d0ce4ab68a94f81ecdee39540757051b49687fa5804b122764253eaede418877"
+    },
+    {
+      "path": "audit/source-review/solver-selected-source-metadata.json",
+      "bytes": 4336,
+      "sha256": "0d2ff1bd9921a532b53a04f954386a2240275722eeda126cfa880daeab7dfd66"
+    },
+    {
+      "path": "audit/source-review/upstream-license-verification.json",
+      "bytes": 1692,
+      "sha256": "92348158fce6427f0135c8a951ac68205df4b3ca41675571d781c2c61bd14135"
+    },
+    {
+      "path": "audit/source-review/verify_integrated_sources.py",
+      "bytes": 2232,
+      "sha256": "c2d9b1906ee30dd77167735fe91d086d2f86fa6e6d6da0527a906af29448870c"
+    },
+    {
+      "path": "audit/source-review/whole-paper-read-notes.md",
+      "bytes": 4187,
+      "sha256": "a98ae21951628e647059f92d6f62adb875517dea8288a5fd40c7e6ceb591c349"
+    },
+    {
+      "path": "data/computational-artifact-manifest.json",
+      "bytes": 9350,
+      "sha256": "e01bb4a6c99ecaa257d95713b878fa075b8e71cce0c516a6a633e5944220ebf6"
+    },
+    {
+      "path": "data/consistency-controls.json",
+      "bytes": 20862,
+      "sha256": "9d36309bf05c6c007193a678b6f9ee009529f5c3ae37b6c96cbe3cba323c683d"
+    },
+    {
+      "path": "data/growth-controls.csv",
+      "bytes": 691,
+      "sha256": "13d5a22f0fcdd83397fb29926f4fcb51d016d4e0513a8d97404b8882ac5565d1"
+    },
+    {
+      "path": "data/threshold-controls.csv",
+      "bytes": 1695,
+      "sha256": "bf37797758e38621b173b4b70aca71220228c5b9c3dbaea1cbc4b0c88611fedd"
+    },
+    {
+      "path": "figures/growth-and-threshold-controls.png",
+      "bytes": 149484,
+      "sha256": "cf7ed7964839c1f6a3aa67755d8ea2b56b0d0d172961da6636aabc6229f9f79c"
+    },
+    {
+      "path": "figures/normalization-and-configuration-controls.png",
+      "bytes": 145557,
+      "sha256": "9ff97c5a0d31ca1a0c17e9c38d6d3176de7cb7dbe967a732f94db695f9c69300"
+    },
+    {
+      "path": "reproduction/run_audit.py",
+      "bytes": 13492,
+      "sha256": "8c169cf1f986642fcc582c1ea27c13d97436121146c1c7c37b668386d43f80fd"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 193,
+      "sha256": "8ed36f0beb45ba79a776e35d42cd2680ab3850c36bff3fb76c36b749a658a237"
+    },
+    {
+      "path": "source-provenance.json",
+      "bytes": 21367,
+      "sha256": "2c81eca593d329ea4fb5d9c5190b1d14ed1da844fd102bf6968cc0fde256642a"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/1D.lua",
+      "bytes": 5941,
+      "sha256": "5656805b2c1f32caa51825cc356bf769efa3fae955d9bec2573a0c24740da3e9"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/M200E10.lua",
+      "bytes": 6647,
+      "sha256": "ba94c036f0e244c064a151a42963ddf5c5146d1864608e91360d92c9ef66afe4"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/M25E1.lua",
+      "bytes": 6652,
+      "sha256": "0283095b74d49faea56ed1de0289fc1e27c10609504f6ae0eab20e981c61489e"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/M25E10.lua",
+      "bytes": 6625,
+      "sha256": "2067b514ce1d060c3b9e08f28ef694fd1df3b4ac9aa1059c6750af2b24859133"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/M25E2.lua",
+      "bytes": 6650,
+      "sha256": "cd775e1cbb7dca2596f1434cd6bb810aa2a6c16529e0947c2b64358b53c4ef32"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/M25E4.lua",
+      "bytes": 6650,
+      "sha256": "7ecc83d798086961467e61dc9c519895867585e80d4a1d924eeb8c94370492db"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/M25E6.lua",
+      "bytes": 6650,
+      "sha256": "1d71686047c9ae784171264ed106abb2db92c76254ae7296602996f6420b21f0"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/M25E8.lua",
+      "bytes": 6650,
+      "sha256": "4c73461103da87ae73918220b4287aeb1e0d62822afcd3e7cb3c1419d3aeeb38"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/M50E10.lua",
+      "bytes": 6646,
+      "sha256": "ae36850a28ad29a01eb7c3dcde91030714345a40f38cb0d4ad646f56e86ae995"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/Main.lua",
+      "bytes": 6650,
+      "sha256": "940969dfec824be5ec9244d50cb2e9d7f25642eedda3fe033d3e69c4831b84e6"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/README.md",
+      "bytes": 309,
+      "sha256": "c4c6ec31a3c9050f5a849bcd1d2614364f778896367532f34f6210cc8de07ef6"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/T100.lua",
+      "bytes": 6624,
+      "sha256": "cc6ec876f47eb51af221eb65e151bb9e3ab2e5defac37f9ecbee4530b5a6250a"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/T20.lua",
+      "bytes": 6626,
+      "sha256": "4d9a403eca8fdf0c7dc3877da18300fdf7452972046baec51383d77ba1cb51c9"
+    },
+    {
+      "path": "third_party/2023_JPP_iat/UPSTREAM-LICENSE-MIT.txt",
+      "bytes": 1102,
+      "sha256": "818019914811a5f487ae8d4c87a10f40093df3e912d5cc6637ae53a05db16df3"
+    },
+    {
+      "path": "third_party/README.md",
+      "bytes": 584,
+      "sha256": "1c4a6d73e12615a043da13875188aff798e28d6a1032cce7eaadbd7f1dc5324a"
+    }
+  ]
+}
